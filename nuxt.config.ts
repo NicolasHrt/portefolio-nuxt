@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     devtools: {enabled: true},
     extends: ['@nuxt/ui-pro'],
-    modules: ["@nuxt/ui", '@vueuse/motion/nuxt'],
+    modules: ["@nuxt/ui", '@vueuse/motion/nuxt', "@nuxt/content"],
     runtimeConfig: {
 
 

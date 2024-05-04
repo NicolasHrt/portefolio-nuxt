@@ -98,12 +98,14 @@ const experiences = [
     <h2 class="text-4xl font-bold text-center mb-20">My Experiences</h2>
 
     <div class="absolute h-[1600px] top-16   w-1 rounded-2xl bg-gray-200 right-1/2 translate-x-1/2"></div>
-    <div class="relative max-w-2xl" :class="[index % 2=== 0 ? '' : 'ml-auto']"
+    <div class="relative max-w-2xl" :class="[index % 2 === 0 ? '' : 'ml-auto']"
          v-for="(experience,index) in experiences">
-      <p v-motion-slide-visible-left class="text-3xl font-bold ml-28 mb-20"
+      <p class="text-3xl font-bold ml-28 mb-20"
          :class="[(index % 2 === 0) ? 'text-right mr-28' : 'ml-28', (index === 0) ? 'text-primary' : '']">
         {{ experience.year }}</p>
-      <ExperienceCard v-motion-slide-visible-left :experience="experience" class="mb-20"/>
+      <ExperienceCard v-if="index % 2 === 0" v-motion-slide-visible-left :experience="experience" class="mb-20"/>
+      <ExperienceCard v-else v-motion-slide-visible-right :experience="experience" class="mb-20"/>
+
     </div>
 
 
