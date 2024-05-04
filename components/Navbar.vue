@@ -2,16 +2,15 @@
 
 
 const links = [{
-  label: 'What I Offer ?',
-  to: '/#offer',
-  active: false
+  label: 'Home',
+  to: '/',
 }, {
   label: 'My experiences',
   to: '/#experiences',
   active: false
 }, {
   label: 'Blog',
-  to: '/releases'
+  to: '/blog'
 }]
 </script>
 
