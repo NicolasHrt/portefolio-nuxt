@@ -1,12 +1,18 @@
 <script setup lang="ts">
 
+import FavoriteTechno from "~/components/FavoriteTechno.vue";
+import Experiences from "~/components/Experiences.vue";
 </script>
 
 <template>
-  <ULandingHero
-      title="Turn Your Vision into Reality"
-      description="Watch your dreams materialize before your eyes with us."
-  />
+  <Hero/>
+  <UContainer class="">
+    <FavoriteTechno id="offer" class="mb-24"/>
+    <Offer class="mb-20"/>
+    <Experiences id="experiences" class="mb-20"/>
+    <FAQ class="mb-10"/>
+  </UContainer>
+
 </template>
 
 <style scoped>

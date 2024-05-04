@@ -2,16 +2,15 @@
 
 
 const links = [{
-  label: 'About me',
-  icon: 'i-heroicons-book-open',
-  to: '/getting-started'
+  label: 'What I Offer ?',
+  to: '/#offer',
+  active: false
 }, {
   label: 'My experiences',
-  icon: 'i-heroicons-square-3-stack-3d',
-  to: '/pro'
+  to: '/#experiences',
+  active: false
 }, {
-  label: 'My contacts',
-  icon: 'i-heroicons-rocket-launch',
+  label: 'Blog',
   to: '/releases'
 }]
 </script>
@@ -25,7 +24,7 @@ const links = [{
     <template #right>
       <UColorModeButton/>
 
-      <UButton to="https://github.com/nuxt/ui" target="_blank" icon="i-simple-icons-github" color="gray"
+      <UButton to="https://github.com/NicolasHrt" target="_blank" icon="i-simple-icons-github" color="gray"
                variant="ghost"/>
     </template>
 

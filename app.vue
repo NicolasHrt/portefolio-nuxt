@@ -7,5 +7,5 @@
     </NuxtLayout>
   </UMain>
 
-  <UFooter/>
+  <Footer/>
 </template>
