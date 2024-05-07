@@ -1,0 +1,95 @@
+contact:
+  email: "harternicolas134@gmail.com"
+  availability: true
+hero:
+  title: "Hi, I'm Nicolas"
+  description: "A Front-End Web Developer, specialized in Vue.js and Nuxt.js. I am passionate about creating beautiful and responsive websites."
+  img: "https://pbs.twimg.com/profile_images/1779583028324347904/QTTnRa_0_400x400.jpg"
+
+technologies:
+  title: "Technologies I use"
+  list:
+    - name: "Vue.js"
+      icon: "i-devicon-vuejs"
+    - name: "Nuxt.js"
+      icon: "i-logos-nuxt-icon"
+    - name: "Supabase"
+      icon: "i-devicon-supabase"
+    - name: "Tailwind CSS"
+      icon: "i-devicon-tailwindcss"
+    - name: "Vercel"
+      icon: "i-devicon-vercel"
+    - name: "Prisma"
+      icon: "i-devicon-prisma"
+
+offers:
+  title: "Do you need ?"
+  list:
+    - title: "Front-End Development"
+      description: "I create responsive and beautiful websites using the latest technologies."
+      icon: "i-heroicons-computer-desktop"
+    - title: "Back-End Development"
+      description: "I develop back-end applications using Node.js and Prisma."
+      icon: "i-heroicons-wrench-screwdriver"
+    - title: "SEO Optimization"
+      description: "I optimize websites for search engines to improve their visibility."
+      icon: "i-heroicons-magnifying-glass"
+    - title: "UX Design"
+      description: "I design user interfaces with Tailwind CSS and Nuxt UI to provide a great user experience."
+      icon: "i-material-symbols-design-services-outline"
+
+experiences:
+  title: "Experiences"
+  list:
+    - company: "Hoplunch"
+      job: "Web Developer"
+      year: "Today"
+      description: "Significant contribution to the development and improvement of the Hoplunch website, using the Nuxt.js framework. Optimized front-end component logic for improved user experience.\n Active participation in team meetings, contributing ideas and suggestions to improve the site's UI/UX."
+      contractType: "Apprenticeship"
+      img:
+        url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
+        alt: "Hoplunch logo"
+      technologies:
+        - name: "Vue.js"
+          icon: "i-devicon-vuejs"
+        - name: "Nuxt.js"
+          icon: "i-logos-nuxt-icon"
+        - name: "Tailwind CSS"
+          icon: "i-logos-tailwindcss-icon"
+      works:
+        - name: "Hoplunch"
+          url: "https://hoplunch.com"
+    - company: "Bradley : The Brand Agency"
+      job: "Web Developer"
+      year: "2022 - 2023"
+      description: "Created several operational Wordpress sites with custom themes for well-known Irish companies, including Mcorm and Natural Stockcare, as well as international companies such as Indorama Ventures.\nCollaborated with designers to translate their vision into responsive web interfaces for all devices.\nDirected website development from concept to launch, demonstrating expertise in independent web development."
+      contractType: "Freelance"
+      img:
+        url: "https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo"
+        alt: "Hoplunch logo"
+      technologies:
+        - name: "Wordpress"
+          icon: "i-bi-wordpress"
+        - name: "Php"
+          icon: "i-devicon-php"
+        - name: "Tailwind CSS"
+          icon: "i-logos-tailwindcss-icon"
+      works:
+        - name: "Mcorm.com"
+          url: "https://mcorm.com/"
+        - name: "Naturalstockcare.com"
+          url: "https://naturalstockcare.com/"
+    - company: "Caisse d'Epargne Grand Est Europe"
+      job: "Web Developer"
+      year: "2022"
+      description: "Development and production of PHP/JQuery/Oracle applications.\nDocumentation writing."
+      contractType: "Internship"
+      img:
+        url: "https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg"
+        alt: "Hoplunch logo"
+      technologies:
+        - name: "Php"
+          icon: "i-devicon-php"
+        - name: "JQuery"
+          icon: "i-devicon-jquery"
+

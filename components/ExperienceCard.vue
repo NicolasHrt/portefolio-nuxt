@@ -20,7 +20,7 @@ defineProps({
           <p>From September 2020 to September 2021</p>
         </div>
         <p class="text-lg mb-4">{{ experience.description }}</p>
-        <div class="flex items-center justify-between gap-4">
+        <div class="flex sm:items-center justify-between gap-4 max-sm:flex-col">
           <div>
             <p class="text-lg font-medium mb-2">Technologies used:</p>
             <div class="flex gap-4 items-center">
