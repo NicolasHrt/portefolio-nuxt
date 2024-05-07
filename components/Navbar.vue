@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const {locale, setLocale} = useI18n()
+const localePath = useLocalePath()
 
 import {useI18n} from 'vue-i18n'
 
@@ -7,16 +8,16 @@ const {t} = useI18n()
 const links = reactive([
   {
     label: 'Home',
-    to: '/',
+    to: localePath('/'),
   },
   {
     label: 'My experiences',
-    to: '/#experiences',
+    to: '#experiences',
     active: false
   },
   {
     label: 'FAQ',
-    to: '/#FAQ',
+    to: '#FAQ',
     active: false
   },
   // {
@@ -34,7 +35,7 @@ watch(locale, () => {
 <template>
   <UHeader :links="links">
     <template #logo>
-      <h1 class="text-2xl ">Nicolas H.</h1>
+      <NuxtLink :to="localePath('/')"><h1 class="text-2xl ">Nicolas H.</h1></NuxtLink>
     </template>
 
 
