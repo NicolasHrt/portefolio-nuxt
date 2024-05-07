@@ -27,3 +27,15 @@ development to everyone.
 
 Nuxt 3.0.0 comes wit
 img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAp-0VMECger6tm2hoonDzFlEK6WgApMzkgO4Uxq6Bkg&s
+
+1. Update `nuxt` to the latest minor version, which is v2.14.
+
+::code-group
+
+```bash [Yarn]
+yarn upgrade nuxt
+```
+
+```bash [NPM]
+npm update
+```

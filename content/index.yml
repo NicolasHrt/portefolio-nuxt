@@ -1,10 +1,11 @@
 contact:
   email: "harternicolas134@gmail.com"
-  availability: true
+  availability: false
+  CV: "/assets/Cv_Nicolas_Harter_EN.pdf"
 hero:
   title: "Hi, I'm Nicolas"
   description: "A Front-End Web Developer, specialized in Vue.js and Nuxt.js. I am passionate about creating beautiful and responsive websites."
-  img: "https://pbs.twimg.com/profile_images/1779583028324347904/QTTnRa_0_400x400.jpg"
+  img: "/assets/me.jpeg"
 
 technologies:
   title: "Technologies I use"
@@ -31,9 +32,9 @@ offers:
     - title: "Back-End Development"
       description: "I develop back-end applications using Node.js and Prisma."
       icon: "i-heroicons-wrench-screwdriver"
-    - title: "SEO Optimization"
-      description: "I optimize websites for search engines to improve their visibility."
-      icon: "i-heroicons-magnifying-glass"
+    - title: "IA Integration"
+      description: "I can integrate AI models into your website using OpenAI."
+      icon: "i-simple-icons-openai"
     - title: "UX Design"
       description: "I design user interfaces with Tailwind CSS and Nuxt UI to provide a great user experience."
       icon: "i-material-symbols-design-services-outline"

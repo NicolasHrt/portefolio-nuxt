@@ -1,17 +1,26 @@
 <script setup lang="ts">
 
 
-const links = [{
-  label: 'Home',
-  to: '/',
-}, {
-  label: 'My experiences',
-  to: '/#experiences',
-  active: false
-}, {
-  label: 'Blog',
-  to: '/blog'
-}]
+const links = [
+  {
+    label: 'Home',
+    to: '/',
+  },
+  {
+    label: 'My experiences',
+    to: '/#experiences',
+    active: false
+  },
+  {
+    label: 'FAQ',
+    to: '/#FAQ',
+    active: false
+  },
+  // {
+  //   label: 'Blog',
+  //   to: '/blog'
+  // }
+]
 </script>
 
 <template>

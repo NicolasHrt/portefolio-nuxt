@@ -14,14 +14,14 @@ const {data: page} = await useAsyncData('index', () => queryContent('/').findOne
       <ULandingHero v-motion-fade-visible :ui="{wrapper: 'md:py-24'}"
                     v-bind="page.hero"
                     orientation="horizontal"
-                    :links="[{ label: 'My CV', icon: 'i-pepicons-pop-cv', size: 'lg' },{ label: 'Contact Me',to:`mailto:${page.contact.email}` ,color: 'black' ,icon: 'i-material-symbols-android-chat', size: 'lg' }]">
+                    :links="[{ label: 'My CV', to:page.contact.CV, target:'_blank',color:'black', icon: 'i-pepicons-pop-cv', size: 'lg' },{ label: 'Contact Me',to:`mailto:${page.contact.email}`  ,icon: 'i-material-symbols-android-chat', size: 'lg' }]">
         <template #headline>
           <WorkAvailability v-bind="page.contact"/>
         </template>
         <template #default>
           <div v-motion-slide-visible-left
                class="max-w-[400px] w-full aspect-square mx-auto rounded-full overflow-hidden ring-2 ring-gray-300 dark:ring-gray-700 shadow-2xl">
-            <img
+            <NuxtImg
                 :src="page.hero.img"
                 class="w-full h-full object-cover"
             />
@@ -50,12 +50,9 @@ const {data: page} = await useAsyncData('index', () => queryContent('/').findOne
         </ULandingGrid>
       </div>
 
-      <div class="relative mb-20">
+      <div class="relative mb-20" id="experiences">
         <h2 class="text-4xl font-bold text-center mb-20">{{ page.experiences.title }}</h2>
-
         <div class="absolute h-[calc(100%-6rem)] top-20   w-1 rounded-2xl bg-gray-200 right-1/2 translate-x-1/2"></div>
-
-
         <div class="relative max-w-2xl" :class="[index % 2 === 0 ? '' : 'ml-auto']"
              v-for="(experience,index) in page.experiences.list">
           <p class="text-3xl font-bold  mb-20"
@@ -66,7 +63,15 @@ const {data: page} = await useAsyncData('index', () => queryContent('/').findOne
         </div>
       </div>
 
-      <FAQ class="mb-10"/>
+      <FAQ id="FAQ"/>
+
+      <ULandingCTA
+          title="Ready to start a project?"
+          description="Contact me to get started. I wish to work with you on your next project."
+          align="left"
+          :card="false"
+          :links="[{ label: 'Contact Me',to:`mailto:${page.contact.email}` ,icon: 'i-material-symbols-android-chat', size: 'lg' }]"
+      />
     </UContainer>
   </div>
 

@@ -19,7 +19,9 @@
       Copyright © {{ new Date().getFullYear() }}
     </template>
     <template #center>
-      <p class="text-lg font-medium">Made by me</p>
+      <p class=" font-medium">Made by me with
+        <ULink to="https://ui.nuxt.com" class="text-primary" target="_blank">Nuxt UI Pro</ULink>
+      </p>
     </template>
     <template #right>
       <UButton icon="i-simple-icons-x" color="gray" variant="ghost" to="https://twitter.com/NicolasHrte"
