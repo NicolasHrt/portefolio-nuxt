@@ -1,9 +1,17 @@
 <script setup lang="ts">
 import WorkAvailability from "~/components/WorkAvailability.vue";
 
-const {data: page} = await useAsyncData('index', () => queryContent('/').findOne())
+const {locale} = useI18n()
+
+const {data: page} = await useAsyncData('index', () => queryContent(`/${locale.value}`).findOne())
 
 
+watch(locale, () => {
+  queryContent(`/${locale.value}`).findOne().then((data) => {
+    page.value = data
+  })
+
+})
 </script>
 
 <template>
@@ -14,7 +22,7 @@ const {data: page} = await useAsyncData('index', () => queryContent('/').findOne
       <ULandingHero v-motion-fade-visible :ui="{wrapper: 'md:py-24'}"
                     v-bind="page.hero"
                     orientation="horizontal"
-                    :links="[{ label: 'My CV', to:page.contact.CV, target:'_blank',color:'black', icon: 'i-pepicons-pop-cv', size: 'lg' },{ label: 'Contact Me',to:`mailto:${page.contact.email}`  ,icon: 'i-material-symbols-android-chat', size: 'lg' }]">
+                    :links="[{ label: $t('my_CV'), to:page.contact.CV, target:'_blank',color:'black', icon: 'i-pepicons-pop-cv', size: 'lg' },{ label: $t('contact_me'),to:`mailto:${page.contact.email}`  ,icon: 'i-material-symbols-android-chat', size: 'lg' }]">
         <template #headline>
           <WorkAvailability v-bind="page.contact"/>
         </template>
@@ -63,15 +71,18 @@ const {data: page} = await useAsyncData('index', () => queryContent('/').findOne
         </div>
       </div>
 
-      <FAQ id="FAQ"/>
+      <div id="FAQ">
+        <h2 class="text-4xl font-bold mb-4">FAQ</h2>
+        <ULandingFAQ :items="page.faq" multiple/>
+      </div>
 
       <ULandingCTA
-          title="Ready to start a project?"
-          description="Contact me to get started. I wish to work with you on your next project."
-          align="left"
+          :title="$t('ready_to_work')"
+          :description="$t('get_started')"
           :card="false"
-          :links="[{ label: 'Contact Me',to:`mailto:${page.contact.email}` ,icon: 'i-material-symbols-android-chat', size: 'lg' }]"
+          :links="[{ label: $t('contact_me'),to:`mailto:${page.contact.email}` ,icon: 'i-material-symbols-android-chat', size: 'lg' }]"
       />
+
     </UContainer>
   </div>
 

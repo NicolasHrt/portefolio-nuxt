@@ -44,7 +44,8 @@ experiences:
   list:
     - company: "Hoplunch"
       job: "Web Developer"
-      year: "Today"
+      year: "Present"
+      period: "From September 2023 to Present"
       description: "Significant contribution to the development and improvement of the Hoplunch website, using the Nuxt.js framework. Optimized front-end component logic for improved user experience.\n Active participation in team meetings, contributing ideas and suggestions to improve the site's UI/UX."
       contractType: "Apprenticeship"
       img:
@@ -63,6 +64,7 @@ experiences:
     - company: "Bradley : The Brand Agency"
       job: "Web Developer"
       year: "2022 - 2023"
+      period: "From August 2022 to September 2023"
       description: "Created several operational Wordpress sites with custom themes for well-known Irish companies, including Mcorm and Natural Stockcare, as well as international companies such as Indorama Ventures.\nCollaborated with designers to translate their vision into responsive web interfaces for all devices.\nDirected website development from concept to launch, demonstrating expertise in independent web development."
       contractType: "Freelance"
       img:
@@ -83,6 +85,7 @@ experiences:
     - company: "Caisse d'Epargne Grand Est Europe"
       job: "Web Developer"
       year: "2022"
+      period: "From January 2022 to April 2022"
       description: "Development and production of PHP/JQuery/Oracle applications.\nDocumentation writing."
       contractType: "Internship"
       img:
@@ -94,3 +97,8 @@ experiences:
         - name: "JQuery"
           icon: "i-devicon-jquery"
 
+faq:
+  - label: "What is your availability?"
+    content: "I am currently not available for new projects."
+  - label: "What is your availability?"
+    content: "I am currently not available for new projects."

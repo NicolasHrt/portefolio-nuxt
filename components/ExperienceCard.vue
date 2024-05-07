@@ -17,12 +17,12 @@ defineProps({
         <div class="mb-4">
           <h3 class="text-2xl font-bold">{{ experience.job }}</h3>
           <p class="text-xl font-medium">{{ experience.company }} - {{ experience.contractType }}</p>
-          <p>From September 2020 to September 2021</p>
+          <p>{{ experience.period }}</p>
         </div>
         <p class="text-lg mb-4">{{ experience.description }}</p>
         <div class="flex sm:items-center justify-between gap-4 max-sm:flex-col">
           <div>
-            <p class="text-lg font-medium mb-2">Technologies used:</p>
+            <p class="text-lg font-medium mb-2">{{ $t('technologies_used') }} :</p>
             <div class="flex gap-4 items-center">
               <UPopover v-for="techno in experience.technologies" mode="hover">
                 <UIcon :name="techno.icon" class="w-10 h-10 flex-shrink-0"/>
@@ -38,11 +38,10 @@ defineProps({
 
             <UButton v-if="experience.works.length === 1" :to="experience.works[0].url" icon="i-heroicons-pencil"
                      target="_blank" size="xl"
-                     color="black">Check
-              work
-            </UButton>
+                     color="black" :label="$t('check_work')"/>
+
             <UPopover v-else mode="hover">
-              <UButton color="white" size="xl" label="Check works" icon="i-heroicons-pencil"/>
+              <UButton color="white" size="xl" :label="$t('check_works')" icon="i-heroicons-pencil"/>
 
               <template #panel>
                 <div class="p-4 grid gap-2">

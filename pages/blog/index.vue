@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const articles = await queryContent('blog').find()
+const {locale} = useI18n()
+
+const articles = await queryContent(`${locale.value}/blog`).find()
 console.log(articles)
 </script>
 

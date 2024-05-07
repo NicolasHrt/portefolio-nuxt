@@ -1,7 +1,10 @@
 <script setup lang="ts">
+const {locale, setLocale} = useI18n()
 
+import {useI18n} from 'vue-i18n'
 
-const links = [
+const {t} = useI18n()
+const links = reactive([
   {
     label: 'Home',
     to: '/',
@@ -20,7 +23,12 @@ const links = [
   //   label: 'Blog',
   //   to: '/blog'
   // }
-]
+])
+watch(locale, () => {
+  links[0].label = t('home')
+  links[1].label = t('experiences')
+
+})
 </script>
 
 <template>
@@ -29,11 +37,13 @@ const links = [
       <h1 class="text-2xl ">Nicolas H.</h1>
     </template>
 
+
     <template #right>
       <UColorModeButton/>
 
       <UButton to="https://github.com/NicolasHrt" target="_blank" icon="i-simple-icons-github" color="gray"
                variant="ghost"/>
+      <LanguageSelect/>
     </template>
 
     <template #panel>
