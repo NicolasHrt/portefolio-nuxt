@@ -22,6 +22,8 @@ technologies:
       icon: "i-devicon-postgresql"
     - name: "Prisma"
       icon: "i-devicon-prisma"
+    - name: "Stripe"
+      icon: "i-logos:stripe"
 
 offers:
   title: "Do you need ?"
@@ -63,7 +65,7 @@ experiences:
           url: "https://hoplunch.com"
     - company: "Bradley : The Brand Agency"
       job: "Web Developer"
-      year: "2022 - 2023"
+      year: "2023"
       period: "From August 2022 to September 2023"
       description: "Created several operational Wordpress sites with custom themes for well-known Irish companies, including Mcorm and Natural Stockcare, as well as international companies such as Indorama Ventures.<br><br>Collaborated with designers to translate their vision into responsive web interfaces for all devices.<br><br>Directed website development from concept to launch, demonstrating expertise in independent web development."
       contractType: "Freelance"
@@ -98,13 +100,16 @@ experiences:
           icon: "i-devicon-jquery"
 
 faq:
+  - label: "Can I manage a project from inception to completion?"
+    content: "Yes, using my Tech Stack above, I can handle the development of a web application from scratch, including implementing an authentication system with Supabase and integrating payement with external tool like Stripe or Lemon Squeezy."
+  - label: "Am I flexible with other stack technologies?"
+    content: "Of course, if your project requires other technologies like React.js or Angular, I can adapt to them."
   - label: "Where I can work?"
     content: "I am currently in France, but I can work remotely with clients from all over the world."
   - label: "What is my educational background?"
     content: "I have a Master's degree in Computer Science from the CESI engineering school in Strasbourg."
   - label: "What is my experience with testing?"
-    content: "I can write end-to-end tests using Playwright to ensure the quality of my code."
-  - label: "Am I flexible with other stack technologies?"
-    content: "Of course, if your project requires other technologies like React.js or Angular, I can adapt to them."
+    content: "I can write end-to-end tests using Playwright to ensure the code quality."
+
   - label: "Do I have experience with CMS ?"
     content: "Yes, I have experience with CMS like Wordpress. I have created several operational Wordpress sites with custom themes for well-known companies."
