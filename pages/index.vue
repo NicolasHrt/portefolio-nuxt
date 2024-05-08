@@ -70,7 +70,6 @@ watch(locale, () => {
           <ExperienceCard v-else v-motion-slide-visible-right :experience="experience" class="mb-20"/>
         </div>
       </div>
-
       <div id="FAQ">
         <h2 class="text-4xl font-bold mb-4">FAQ</h2>
         <ULandingFAQ :items="page.faq" multiple/>

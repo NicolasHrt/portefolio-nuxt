@@ -4,11 +4,11 @@ contact:
   CV: "/assets/Cv_Nicolas_Harter_EN.pdf"
 hero:
   title: "Hi, I'm Nicolas"
-  description: "A Front-End Web Developer, specialized in Vue.js and Nuxt.js. I am passionate about creating beautiful and responsive websites."
+  description: "A Front-End Web Developer, specialized in Vue.js and Nuxt.js with 4 years of experience, adept at crafting interactive and user-friendly web interfaces. "
   img: "/assets/me.jpeg"
 
 technologies:
-  title: "Technologies I use"
+  title: "My Tech Stack"
   list:
     - name: "Vue.js"
       icon: "i-devicon-vuejs"
@@ -18,8 +18,8 @@ technologies:
       icon: "i-devicon-supabase"
     - name: "Tailwind CSS"
       icon: "i-devicon-tailwindcss"
-    - name: "Vercel"
-      icon: "i-devicon-vercel"
+    - name: "PostgreSQL"
+      icon: "i-devicon-postgresql"
     - name: "Prisma"
       icon: "i-devicon-prisma"
 
@@ -27,14 +27,14 @@ offers:
   title: "Do you need ?"
   list:
     - title: "Front-End Development"
-      description: "I create responsive and beautiful websites using the latest technologies."
+      description: "I can create responsive and user-friendly interface for your next project using the latest technologies."
       icon: "i-heroicons-computer-desktop"
     - title: "Back-End Development"
-      description: "I develop back-end applications using Node.js and Prisma."
+      description: "If you need a database in your project, I can develop a secure and maintainable back-end using PostgreSQL and Prisma."
+      icon: "i-material-symbols-database"
+    - title: "Maintenance"
+      description: "I can maintain the front-end of your website and improve its performance and user experience."
       icon: "i-heroicons-wrench-screwdriver"
-    - title: "IA Integration"
-      description: "I can integrate AI models into your website using OpenAI."
-      icon: "i-simple-icons-openai"
     - title: "UX Design"
       description: "I design user interfaces with Tailwind CSS and Nuxt UI to provide a great user experience."
       icon: "i-material-symbols-design-services-outline"
@@ -46,7 +46,7 @@ experiences:
       job: "Web Developer"
       year: "Present"
       period: "From September 2023 to Present"
-      description: "Significant contribution to the development and improvement of the Hoplunch website, using the Nuxt.js framework. Optimized front-end component logic for improved user experience.\n Active participation in team meetings, contributing ideas and suggestions to improve the site's UI/UX."
+      description: "Significant contribution to the development and improvement of the Hoplunch website, using the Nuxt.js framework.<br><br> Optimized front-end component logic for improved user experience.<br><br> Active participation in team meetings, contributing ideas and suggestions to improve the site's UI/UX."
       contractType: "Apprenticeship"
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
@@ -65,7 +65,7 @@ experiences:
       job: "Web Developer"
       year: "2022 - 2023"
       period: "From August 2022 to September 2023"
-      description: "Created several operational Wordpress sites with custom themes for well-known Irish companies, including Mcorm and Natural Stockcare, as well as international companies such as Indorama Ventures.\nCollaborated with designers to translate their vision into responsive web interfaces for all devices.\nDirected website development from concept to launch, demonstrating expertise in independent web development."
+      description: "Created several operational Wordpress sites with custom themes for well-known Irish companies, including Mcorm and Natural Stockcare, as well as international companies such as Indorama Ventures.<br><br>Collaborated with designers to translate their vision into responsive web interfaces for all devices.<br><br>Directed website development from concept to launch, demonstrating expertise in independent web development."
       contractType: "Freelance"
       img:
         url: "https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo"
@@ -98,7 +98,13 @@ experiences:
           icon: "i-devicon-jquery"
 
 faq:
-  - label: "What is your availability?"
-    content: "I am currently not available for new projects."
-  - label: "What is your availability?"
-    content: "I am currently not available for new projects."
+  - label: "Where I can work?"
+    content: "I am currently in France, but I can work remotely with clients from all over the world."
+  - label: "What is my educational background?"
+    content: "I have a Master's degree in Computer Science from the CESI engineering school in Strasbourg."
+  - label: "What is my experience with testing?"
+    content: "I can write end-to-end tests using Playwright to ensure the quality of my code."
+  - label: "Am I flexible with other stack technologies?"
+    content: "Of course, if your project requires other technologies like React.js or Angular, I can adapt to them."
+  - label: "Do I have experience with CMS ?"
+    content: "Yes, I have experience with CMS like Wordpress. I have created several operational Wordpress sites with custom themes for well-known companies."

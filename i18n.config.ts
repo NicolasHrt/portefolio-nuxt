@@ -11,7 +11,7 @@ export default defineI18nConfig(() => ({
             not_available: 'Not available for freelance work',
             my_CV: 'My CV',
             contact_me: 'Contact Me',
-            technologies_used: 'Technologies Used',
+            technologies_used: 'Tech Stack',
             check_work: 'Check my work',
             check_works: 'Check my works',
             ready_to_work: 'Ready to start a project with me?',

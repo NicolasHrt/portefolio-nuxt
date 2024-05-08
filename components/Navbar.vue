@@ -31,7 +31,6 @@ watch(locale, () => {
 
 })
 </script>
-
 <template>
   <UHeader :links="links">
     <template #logo>
@@ -40,14 +39,14 @@ watch(locale, () => {
 
 
     <template #right>
-      <UColorModeButton/>
-
       <UButton to="https://github.com/NicolasHrt" target="_blank" icon="i-simple-icons-github" color="gray"
                variant="ghost"/>
+      <UColorModeButton/>
       <LanguageSelect/>
-    </template>
 
+    </template>
     <template #panel>
+
     </template>
   </UHeader>
 </template>
