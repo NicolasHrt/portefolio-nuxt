@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const {locale, setLocale} = useI18n()
+const {locale} = useI18n()
 const localePath = useLocalePath()
 
 import {useI18n} from 'vue-i18n'
@@ -7,11 +7,11 @@ import {useI18n} from 'vue-i18n'
 const {t} = useI18n()
 const links = reactive([
   {
-    label: 'Home',
+    label: t('home'),
     to: localePath('/'),
   },
   {
-    label: 'My experiences',
+    label: t('experiences'),
     to: '#experiences',
     active: false
   },
@@ -27,6 +27,7 @@ const links = reactive([
 ])
 watch(locale, () => {
   links[0].label = t('home')
+  links[0].to = localePath('/')
   links[1].label = t('experiences')
 
 })
