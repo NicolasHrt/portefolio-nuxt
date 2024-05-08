@@ -12,7 +12,7 @@ technologies:
   list:
     - name: "Vue.js"
       icon: "i-devicon-vuejs"
-    - name: "Nuxt.js"
+    - name: "Nuxt"
       icon: "i-logos-nuxt-icon"
     - name: "Supabase"
       icon: "i-devicon-supabase"
@@ -22,8 +22,6 @@ technologies:
       icon: "i-devicon-postgresql"
     - name: "Prisma"
       icon: "i-devicon-prisma"
-    - name: "Stripe"
-      icon: "i-logos:stripe"
 
 offers:
   title: "Do you need ?"
@@ -34,12 +32,13 @@ offers:
     - title: "Back-End Development"
       description: "If you need a database in your project, I can develop a secure and maintainable back-end using PostgreSQL and Prisma."
       icon: "i-material-symbols-database"
-    - title: "Maintenance"
-      description: "I can maintain the front-end of your website and improve its performance and user experience."
-      icon: "i-heroicons-wrench-screwdriver"
-    - title: "UX Design"
-      description: "I design user interfaces with Tailwind CSS and Nuxt UI to provide a great user experience."
+    - title: "Web Application from scratch"
+      description: "I can handle the development of a web application from scratch with Nuxt, including implementing an authentication system and integrating payement."
       icon: "i-material-symbols-design-services-outline"
+    - title: "Maintenance"
+      description: "I can maintain the front-end of your application and improve its performance and user experience."
+      icon: "i-heroicons-wrench-screwdriver"
+
 
 experiences:
   title: "Experiences"
@@ -56,7 +55,7 @@ experiences:
       technologies:
         - name: "Vue.js"
           icon: "i-devicon-vuejs"
-        - name: "Nuxt.js"
+        - name: "Nuxt"
           icon: "i-logos-nuxt-icon"
         - name: "Tailwind CSS"
           icon: "i-logos-tailwindcss-icon"
