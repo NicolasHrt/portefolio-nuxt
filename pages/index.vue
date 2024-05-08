@@ -10,7 +10,13 @@ watch(locale, () => {
   queryContent(`/${locale.value}`).findOne().then((data) => {
     page.value = data
   })
+})
 
+useSeoMeta({
+  title: page.value?.title,
+  ogTitle: page.value?.title,
+  description: page.value?.description,
+  ogDescription: page.value?.description
 })
 </script>
 
@@ -53,8 +59,8 @@ watch(locale, () => {
       <div class="mb-20">
         <h2 class="text-4xl font-bold mb-8">{{ page.offers.title }}</h2>
         <ULandingGrid>
-          <ULandingCard v-for="(offer, index) in page.offers.list" class="col-span-6"
-                        :class="[index % 2 === 0 ? 'row-span-4' : 'row-span-2']" v-bind="offer"/>
+          <ULandingCard v-for="offer in page.offers.list"
+                        v-bind="offer"/>
         </ULandingGrid>
       </div>
 
@@ -76,8 +82,8 @@ watch(locale, () => {
       </div>
 
       <ULandingCTA
-          :title="$t('ready_to_work')"
-          :description="$t('get_started')"
+          :title="page.cta.title"
+          :description="page.cta.description"
           :card="false"
           :links="[{ label: $t('contact_me'),to:`mailto:${page.contact.email}` ,icon: 'i-material-symbols-android-chat', size: 'lg' }]"
       />

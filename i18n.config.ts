@@ -14,14 +14,12 @@ export default defineI18nConfig(() => ({
             technologies_used: 'Tech Stack',
             check_work: 'Check my work',
             check_works: 'Check my works',
-            ready_to_work: 'Ready to start a project with me?',
-            get_started: 'Contact me to get started. I wish to work with you on your next project.',
         },
         fr: {
             french: 'Français',
             english: 'Anglais',
             home: 'Accueil',
-            experiences: 'Mes Expériences',
+            experiences: 'Mes expériences',
             availability: 'Disponible pour des missions freelance',
             not_available: 'Non disponible pour des missions freelance',
             my_CV: 'Mon CV',
@@ -29,9 +27,6 @@ export default defineI18nConfig(() => ({
             technologies_used: 'Technologies Utilisées',
             check_work: 'Voir mon travail',
             check_works: 'Voir mes travaux',
-            ready_to_work: 'Prêt à démarrer un projet avec moi?',
-            get_started: 'Contactez-moi pour commencer. Je souhaite travailler avec vous sur votre prochain projet.',
-
         }
     }
 }))

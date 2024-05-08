@@ -1,3 +1,5 @@
+title: "Nicolas Harter"
+description: "Front-End Web Developer"
 contact:
   email: "harternicolas134@gmail.com"
   availability: false
@@ -27,25 +29,29 @@ offers:
   title: "Do you need ?"
   list:
     - title: "Front-End Development"
-      description: "I can create responsive and user-friendly interface for your next project using the latest technologies."
+      description: "I can create responsive and user-friendly interface for your next project using Nuxt and Tailwind CSS."
       icon: "i-heroicons-computer-desktop"
+      class: "row-span-2 col-span-6"
     - title: "Back-End Development"
       description: "If you need a database in your project, I can develop a secure and maintainable back-end using PostgreSQL and Prisma."
       icon: "i-material-symbols-database"
+      class: "row-span-4 col-span-6"
     - title: "Web Application from scratch"
       description: "I can handle the development of a web application from scratch with Nuxt, including implementing an authentication system and integrating payement."
       icon: "i-material-symbols-design-services-outline"
+      class: "row-span-4 col-span-6"
     - title: "Maintenance"
       description: "I can maintain the front-end of your application and improve its performance and user experience."
       icon: "i-heroicons-wrench-screwdriver"
+      class: "row-span-2 col-span-6"
 
 
 experiences:
-  title: "Experiences"
+  title: "My Experiences"
   list:
     - company: "Hoplunch"
       job: "Web Developer"
-      year: "Present"
+      year: "Today"
       period: "From September 2023 to Present"
       description: "Significant contribution to the development and improvement of the Hoplunch website, using the Nuxt.js framework.<br><br> Optimized front-end component logic for improved user experience.<br><br> Active participation in team meetings, contributing ideas and suggestions to improve the site's UI/UX."
       contractType: "Apprenticeship"
@@ -109,6 +115,9 @@ faq:
     content: "I have a Master's degree in Computer Science from the CESI engineering school in Strasbourg."
   - label: "What is my experience with testing?"
     content: "I can write end-to-end tests using Playwright to ensure the code quality."
-
   - label: "Do I have experience with CMS ?"
     content: "Yes, I have experience with CMS like Wordpress. I have created several operational Wordpress sites with custom themes for well-known companies."
+
+cta:
+  title: "Ready to start a project with me ?"
+  description: "Contact me to get started. I wish to work with you on your next project."

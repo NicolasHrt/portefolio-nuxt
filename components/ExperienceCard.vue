@@ -16,13 +16,13 @@ defineProps({
       <div>
         <div class="mb-4">
           <h3 class="text-2xl font-bold">{{ experience.job }}</h3>
-          <p class="text-xl font-medium">{{ experience.company }} - {{ experience.contractType }}</p>
-          <p>{{ experience.period }}</p>
+          <p class="text-xl font-medium mb-1">{{ experience.company }} - {{ experience.contractType }}</p>
+          <UBadge color="gray">{{ experience.period }}</UBadge>
         </div>
         <p class="text-lg mb-6" v-html="experience.description"></p>
         <div class="flex sm:items-center justify-between gap-4 max-sm:flex-col">
           <div>
-            <p class="text-lg font-medium mb-2">{{ $t('technologies_used') }} :</p>
+            <p class="text-lg font-bold mb-2">{{ $t('technologies_used') }} :</p>
             <div class="flex gap-4 items-center">
               <UPopover v-for="techno in experience.technologies" mode="hover">
                 <UIcon :name="techno.icon" class="w-10 h-10 flex-shrink-0"/>

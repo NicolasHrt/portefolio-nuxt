@@ -1,9 +1,11 @@
+title: "Nicolas Harter"
+description: "Développeur Web Front-End"
 contact:
   email: "harternicolas134@gmail.com"
   availability: false
   CV: "/assets/Cv_Nicolas_Harter_FR.pdf"
 hero:
-  title: "Bonjour, je suis Nicolas"
+  title: "Nicolas Harter"
   description: "Un développeur Web Front-End, spécialisé en Vue.js et Nuxt.js avec 4 ans d'expérience, adepte de la création d'interfaces web interactives et conviviales."
   img: "/assets/me.jpeg"
 
@@ -27,28 +29,32 @@ offers:
   title: "Vous avez besoin de ?"
   list:
     - title: "Développement Front-End"
-      description: "Je peux créer une interface responsive et conviviale pour votre prochain projet en utilisant les dernières technologies."
+      description: "Je peux créer une interface responsive et conviviale pour votre prochain projet en utilisant Nuxt et Tailwind CSS."
       icon: "i-heroicons-computer-desktop"
+      class: "row-span-2 col-span-6"
     - title: "Développement Back-End"
       description: "Si vous avez besoin d'une base de données dans votre projet, je peux développer un back-end sécurisé et maintenable en utilisant PostgreSQL et Prisma."
       icon: "i-material-symbols-database"
+      class: "row-span-4 col-span-6"
     - title: "Application Web de A à Z"
       description: "Je peux prendre en charge le développement d'une application web de A à Z avec Nuxt, y compris la mise en place de l'authentification et l'intégration d'un système de paiement."
       icon: "i-material-symbols-design-services-outline"
+      class: "row-span-4 col-span-6"
     - title: "Maintenance"
       description: "Je peux entretenir le front-end de votre application et améliorer ses performances et son expérience utilisateur."
       icon: "i-heroicons-wrench-screwdriver"
+      class: "row-span-2 col-span-6"
 
 experiences:
-  title: "Expériences"
+  title: "Mes expériences"
   list:
     - company: "Hoplunch"
       job: "Développeur Web"
       contractType: "Alternance"
-      year: "Présent"
+      year: "Aujourd'hui"
       period: "De septembre 2023 à aujourd'hui"
       description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Logique de composants Front-end optimisée pour une meilleure expérience utilisateur.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site."
-   
+
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
         alt: "Logo de Hoplunch"
@@ -111,3 +117,7 @@ faq:
     content: "Je peux écrire des tests 'end to end' en utilisant Playwright pour garantir la qualité du code."
   - label: "Ai-je de l'expérience avec les CMS ?"
     content: "Oui, j'ai de l'expérience avec des CMS comme Wordpress. J'ai créé plusieurs sites opérationnels sous Wordpress avec des thèmes personnalisés pour des entreprises reconnues."
+
+cta:
+  title: "Prêt à démarrer un projet avec moi?"
+  description: "Contactez-moi pour commencer. Je souhaite travailler avec vous sur votre prochain projet."
