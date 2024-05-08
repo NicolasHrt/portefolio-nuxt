@@ -106,7 +106,7 @@ experiences:
 
 faq:
   - label: "Puis-je gérer un projet de A à Z ?"
-    content: "Oui, des outils tels que Nuxt, je peux prendre en charge le développement d'une application web de A à Z, y compris la mise en place d'un système d'authentification avec Supabase et l'intégration du paiement avec des outils externes comme Stripe ou Lemon Squeezy."
+    content: "Oui, avec des outils tels que Nuxt, je peux prendre en charge le développement d'une application web de A à Z, y compris la mise en place d'un système d'authentification avec Supabase et l'intégration du paiement avec des outils externes comme Stripe ou Lemon Squeezy."
   - label: "Suis-je flexible avec d'autres technologies ?"
     content: "Bien sûr, si votre projet nécessite d'autres technologies comme React.js ou Angular, je peux m'adapter."
   - label: "Où puis-je travailler ?"

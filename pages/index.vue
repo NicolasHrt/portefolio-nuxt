@@ -44,7 +44,8 @@ useSeoMeta({
       </ULandingHero>
     </div>
     <UContainer class="">
-      <ULandingLogos class="mb-20" v-motion-slide-bottom :title="page.technologies.title" :ui="{title:'text-3xl'}"
+      <ULandingLogos class="mb-20" v-motion-slide-bottom :title="page.technologies.title"
+                     :ui="{title:'text-3xl font-bold'}"
                      align="center">
         <UPopover v-for="techno in page.technologies.list" mode="hover">
           <UIcon :name="techno.icon" class="w-20 h-20 flex-shrink-0"/>

@@ -1,7 +1,7 @@
 <template>
   <Navbar/>
 
-  <UMain>
+  <UMain class="overflow-x-hidden">
     <NuxtLayout>
       <NuxtPage/>
     </NuxtLayout>

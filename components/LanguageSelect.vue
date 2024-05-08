@@ -26,7 +26,7 @@ function setLanguage(language: string) {
     <UPopover v-model:open="isOpen">
       <UButton icon="i-heroicons-language" square variant="ghost" color="gray"/>
       <template #panel>
-        <div class="p-1 grid">
+        <div class="p-1 grid gap-1">
           <UButton @click="setLanguage('fr')" :variant="locale === 'fr' ? 'solid' : 'ghost'" color="gray" size="lg">
             {{ $t('french') }}
           </UButton>
