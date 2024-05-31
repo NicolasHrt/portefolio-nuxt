@@ -6,7 +6,7 @@ contact:
   CV: "/assets/Cv_Nicolas_Harter_FR.pdf"
 hero:
   title: "Nicolas Harter"
-  description: "Un développeur Web Front-End, spécialisé en Vue.js et Nuxt.js avec 4 ans d'expérience, adepte de la création d'interfaces web interactives et conviviales."
+  description: "Un développeur Web Front-End, spécialisé en Vue.js et Nuxt.js, adepte de la création d'interfaces web interactives et conviviales."
   img: "/assets/me.jpeg"
 
 technologies:

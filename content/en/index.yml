@@ -6,7 +6,7 @@ contact:
   CV: "/assets/Cv_Nicolas_Harter_EN.pdf"
 hero:
   title: "Hi, I'm Nicolas"
-  description: "A Front-End Web Developer, specialized in Vue.js and Nuxt.js with 4 years of experience, adept at crafting interactive and user-friendly web interfaces. "
+  description: "A Front-End Web Developer, specialized in Vue.js and Nuxt.js, adept at crafting interactive and user-friendly web interfaces. "
   img: "/assets/me.jpeg"
 
 technologies:
