@@ -52,8 +52,7 @@ experiences:
       contractType: "Alternance"
       year: "Aujourd'hui"
       period: "De septembre 2023 à aujourd'hui"
-      description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Logique de composants Front-end optimisée pour une meilleure expérience utilisateur.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site."
-
+      description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalité dans le back-office avec le framework Php Symfony."
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
         alt: "Logo de Hoplunch"
@@ -64,6 +63,8 @@ experiences:
           icon: "i-logos-nuxt-icon"
         - name: "Tailwind CSS"
           icon: "i-logos-tailwindcss-icon"
+        - name: "Symfony"
+          icon: "i-logos-symfony"
       works:
         - name: "Hoplunch"
           url: "https://hoplunch.com"

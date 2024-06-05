@@ -52,7 +52,8 @@ experiences:
       job: "Web Developer"
       year: "Today"
       period: "From September 2023 to Present"
-      description: "Significant contribution to the development and improvement of the Hoplunch website, using the Nuxt.js framework.<br><br> Optimized front-end component logic for improved user experience.<br><br> Active participation in team meetings, contributing ideas and suggestions to improve the site's UI/UX."
+      description: "Significant contribution to the development and improvement of the Hoplunch website, using the Nuxt.js framework.
+      <br><br> Active participation in team meetings, contributing ideas and suggestions to improve the site's UI/UX.<br><br>Added functionality in the back office with the Symfony Php framework."
       contractType: "Apprenticeship"
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
@@ -64,6 +65,8 @@ experiences:
           icon: "i-logos-nuxt-icon"
         - name: "Tailwind CSS"
           icon: "i-logos-tailwindcss-icon"
+        - name: "Symfony"
+          icon: "i-logos-symfony"
       works:
         - name: "Hoplunch"
           url: "https://hoplunch.com"
