@@ -3,19 +3,21 @@ description: "Front-End Web Developer"
 contact:
   email: "contact.nicolasharter@gmail.com"
   availability: false
-  CV: "/assets/Cv_Nicolas_Harter_EN.pdf"
+  CV: "/assets/Cv_Nicolas_Harter_FR.pdf"
 hero:
-  title: "Hi, I'm Nicolas"
-  description: "A Front-End Web Developer, specialized in Vue.js and Nuxt.js, adept at crafting interactive and user-friendly web interfaces. "
+  title: "Nicolas Harter"
+  description: "Full-Stack Web Developer, specializing in Vue.js/Nuxt and AdonisJS"
   img: "/assets/me.jpeg"
 
 technologies:
-  title: "My Tech Stack"
+  title: "My Skills"
   list:
     - name: "Vue.js"
       icon: "i-devicon-vuejs"
     - name: "Nuxt"
       icon: "i-logos-nuxt-icon"
+    - name: "Supabase"
+      icon: "i-devicon-supabase"
     - name: "AdonisJS"
       icon: "logos:adonisjs-icon"
     - name: "Tailwind CSS"
@@ -23,41 +25,38 @@ technologies:
     - name: "Wordpress"
       icon: "simple-icons:wordpress"
 
-
 offers:
-  title: "Do you need ?"
+  title: "Need help with?"
   list:
     - title: "Front-End Development"
-      description: "I can create a responsive and user-friendly interface for your next project using Nuxt and Tailwind CSS."
+      description: "I can create/maintain modern and responsive web interfaces using Vue.js/Nuxt and Tailwind CSS frameworks."
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
     - title: "Back-End Development"
-      description: "If you need a backend for your application, I can create a REST API with the AdonisJS framework."
+      description: "I can create/maintain a REST API with the AdonisJS framework and interact with a database using ORMs like Lucid or Prisma."
       icon: "i-material-symbols-database"
       class: "row-span-4 col-span-6"
-    - title: "Full Web Application Development"
-      description: "I can handle the development of a web application from A to Z using Nuxt and AdonisJS."
-      icon: "i-material-symbols-design-services-outline"
+    - title: "Showcase Website"
+      description: "I can create showcase websites for your business using CMS like WordPress to allow you to edit the content."
+      icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
-    - title: "Maintenance"
-      description: "I can maintain the front-end of your application and improve its performance and user experience."
-      icon: "i-heroicons-wrench-screwdriver"
+    - title: "Web Application"
+      description: "I can handle the development of a Full-Stack web application using Inertia to combine Vue.js (for front-end) and AdonisJS (for back-end)."
+      icon: "simple-icons:inertia"
       class: "row-span-2 col-span-6"
-
 
 experiences:
   title: "My Experiences"
   list:
     - company: "Hoplunch"
       job: "Web Developer"
-      year: "Today"
-      period: "From September 2023 to Present"
-      description: "Significant contribution to the development and improvement of the Hoplunch website, using the Nuxt.js framework.
-      <br><br> Active participation in team meetings, contributing ideas and suggestions to improve the site's UI/UX.<br><br>Added functionality in the back office with the Symfony Php framework."
       contractType: "Apprenticeship"
+      year: "Present"
+      period: "From September 2023 to present"
+      description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework."
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
-        alt: "Hoplunch logo"
+        alt: "Hoplunch Logo"
       technologies:
         - name: "Vue.js"
           icon: "i-devicon-vuejs"
@@ -74,11 +73,11 @@ experiences:
       job: "Web Developer"
       year: "2023"
       period: "From August 2022 to September 2023"
-      description: "Created several operational Wordpress sites with custom themes for well-known Irish companies, including Mcorm and Natural Stockcare, as well as international companies such as Indorama Ventures.<br><br>Collaborated with designers to translate their vision into responsive web interfaces for all devices.<br><br>Directed website development from concept to launch, demonstrating expertise in independent web development."
       contractType: "Freelance"
+      description: "Created several operational WordPress sites with custom themes for well-known Irish companies like Mcorm and Natural Stockcare, as well as international companies like Indorama Ventures.<br><br> Collaborated with designers to translate their vision into responsive web interfaces for all devices.<br><br> Led the development of websites from conception to launch, demonstrating expertise in independent web development."
       img:
         url: "https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo"
-        alt: "Hoplunch logo"
+        alt: "Bradley : The Brand Agency Logo"
       technologies:
         - name: "Wordpress"
           icon: "i-bi-wordpress"
@@ -93,13 +92,13 @@ experiences:
           url: "https://naturalstockcare.com/"
     - company: "Caisse d'Epargne Grand Est Europe"
       job: "Web Developer"
+      contractType: "Internship"
       year: "2022"
       period: "From January 2022 to April 2022"
-      description: "Development and production of PHP/JQuery/Oracle applications.\nDocumentation writing."
-      contractType: "Internship"
+      description: "Development and production of PHP/JQuery/Oracle applications.<br>Documentation writing."
       img:
         url: "https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg"
-        alt: "Hoplunch logo"
+        alt: "Caisse d'Epargne Grand Est Europe Logo"
       technologies:
         - name: "Php"
           icon: "i-devicon-php"
@@ -107,19 +106,15 @@ experiences:
           icon: "i-devicon-jquery"
 
 faq:
-  - label: "Can I manage a project from inception to completion?"
-    content: "Yes, using my Tech Stack above, I can handle the development of a web application from scratch, including implementing an authentication system with Supabase and integrating payement with external tool like Stripe or Lemon Squeezy."
-  - label: "Am I flexible with other stack technologies?"
-    content: "Of course, if your project requires other technologies like React.js or Angular, I can adapt to them."
-  - label: "Where I can work?"
-    content: "I am currently in France, but I can work remotely with clients from all over the world."
   - label: "What is my educational background?"
-    content: "I have a Master's degree in Computer Science from the CESI engineering school in Strasbourg."
-  - label: "What is my experience with testing?"
-    content: "I can write end-to-end tests using Playwright to ensure the code quality."
-  - label: "Do I have experience with CMS ?"
-    content: "Yes, I have experience with CMS like Wordpress. I have created several operational Wordpress sites with custom themes for well-known companies."
+    content: "I hold an engineering degree in Computer Science from CESI Strasbourg."
+  - label: "Am I flexible with other technologies?"
+    content: "Absolutely, if your project requires other technologies like React.js or Angular, I can adapt."
+  - label: "Where can I work?"
+    content: "I am currently based in France, but I can work remotely with clients from all over the world."
+  - label: "What is my rate for a web development project?"
+    content: "The rate depends on the complexity and duration of the project. After an initial discussion to define your needs, I can provide you with a precise quote."
 
 cta:
-  title: "Ready to start a project with me ?"
-  description: "Contact me to get started. I wish to work with you on your next project."
+  title: "Ready to start a project with me?"
+  description: "Contact me to get started. I look forward to working with you on your next project."

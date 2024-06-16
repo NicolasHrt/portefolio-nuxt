@@ -6,7 +6,7 @@ contact:
   CV: "/assets/Cv_Nicolas_Harter_FR.pdf"
 hero:
   title: "Nicolas Harter"
-  description: "Un développeur Web Front-End, spécialisé en Vue.js et Nuxt.js, adepte de la création d'interfaces web interactives et conviviales."
+  description: "Développeur Web Full-Stack, spécialisé en Vue.js/Nuxt et AdonisJS"
   img: "/assets/me.jpeg"
 
 technologies:
@@ -16,6 +16,8 @@ technologies:
       icon: "i-devicon-vuejs"
     - name: "Nuxt"
       icon: "i-logos-nuxt-icon"
+    - name: "Supabase"
+      icon: "i-devicon-supabase"
     - name: "AdonisJS"
       icon: "logos:adonisjs-icon"
     - name: "Tailwind CSS"
@@ -28,20 +30,20 @@ offers:
   title: "Vous avez besoin de ?"
   list:
     - title: "Développement Front-End"
-      description: "Je peux créer une interface responsive et conviviale pour votre prochain projet en utilisant Nuxt et Tailwind CSS."
+      description: "Je suis capable de réaliser/maintenir des interfaces web modernes et responsives avec les frameworks Vue.js/Nuxt et Tailwind CSS"
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
     - title: "Développement Back-End"
-      description: "Si vous avez besoin d'un backend pour votre application, je peux créer une API REST avec le framework AdonisJS."
+      description: "Je peux créer/maintenir une API rest avec le framework AdonisJs et d''intéragir avec un base de données avec des ORM comme Lucid ou Prisma"
       icon: "i-material-symbols-database"
       class: "row-span-4 col-span-6"
-    - title: "Application Web de A à Z"
-      description: "Je peux prendre en charge le développement d'une application web de A à Z avec Nuxt et AdonisJS"
-      icon: "i-material-symbols-design-services-outline"
+    - title: "Site vitrine"
+      description: "Je suis capable de réaliser des sites vitrines pour votre entreprises avec des CMS comme Wordpress pour vous permettre d'éditer le contenu"
+      icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
-    - title: "Maintenance"
-      description: "Je peux entretenir le front-end de votre application et améliorer ses performances et son expérience utilisateur."
-      icon: "i-heroicons-wrench-screwdriver"
+    - title: "Application Web"
+      description: "Je peux prendre en charge le dévelopement d'une application Web Full-Stack en utilisant Inertia pour combiner Vue.js (pour le front-end) et AdonisJs (pour le back-end)"
+      icon: "simple-icons:inertia"
       class: "row-span-2 col-span-6"
 
 experiences:
@@ -105,19 +107,17 @@ experiences:
           icon: "i-devicon-jquery"
 
 faq:
-  - label: "Puis-je gérer un projet de A à Z ?"
-    content: "Oui, avec des outils tels que Nuxt, je peux prendre en charge le développement d'une application web de A à Z, y compris la mise en place d'un système d'authentification avec Supabase et l'intégration du paiement avec des outils externes comme Stripe ou Lemon Squeezy."
+  - label: "Quel est mon parcours éducatif ?"
+    content: "Je suis titulaire d'un Diplôme d'ingénieur en Informatique  réalisé au CESI Strasbourg."
   - label: "Suis-je flexible avec d'autres technologies ?"
     content: "Bien sûr, si votre projet nécessite d'autres technologies comme React.js ou Angular, je peux m'adapter."
   - label: "Où puis-je travailler ?"
     content: "Je suis actuellement en France, mais je peux travailler à distance avec des clients du monde entier."
-  - label: "Quel est mon parcours éducatif ?"
-    content: "Je suis titulaire d'un Diplôme d'ingénieur en Informatique réalisé au CESI Strasbourg."
-  - label: "Quelle est mon expérience en matière de tests ?"
-    content: "Je peux écrire des tests 'end to end' en utilisant Playwright pour garantir la qualité du code."
-  - label: "Ai-je de l'expérience avec les CMS ?"
-    content: "Oui, j'ai de l'expérience avec des CMS comme Wordpress. J'ai créé plusieurs sites opérationnels sous Wordpress avec des thèmes personnalisés pour des entreprises reconnues."
+  - label : "Quel est mon tarif pour un projet de développement web ?
+    "
+    content: "Le tarif dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrais vous fournir un devis précis.
 
+"
 cta:
   title: "Prêt à démarrer un projet avec moi?"
   description: "Contactez-moi pour commencer. Je souhaite travailler avec vous sur votre prochain projet."
