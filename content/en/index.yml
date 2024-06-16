@@ -40,7 +40,7 @@ offers:
       description: "I can create showcase websites for your business using CMS like WordPress to allow you to edit the content."
       icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
-    - title: "Web Application"
+    - title: "Complete Web Application"
       description: "I can handle the development of a Full-Stack web application using Inertia to combine Vue.js (for front-end) and AdonisJS (for back-end)."
       icon: "simple-icons:inertia"
       class: "row-span-2 col-span-6"
