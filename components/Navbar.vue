@@ -2,40 +2,12 @@
 const {locale} = useI18n()
 const localePath = useLocalePath()
 
-import {useI18n} from 'vue-i18n'
 
-const {t} = useI18n()
-const links = reactive([
-  {
-    label: t('home'),
-    to: localePath('/'),
-  },
-  {
-    label: t('experiences'),
-    to: '#experiences',
-    active: false
-  },
-  {
-    label: 'FAQ',
-    to: '#FAQ',
-    active: false
-  },
-  // {
-  //   label: 'Blog',
-  //   to: '/blog'
-  // }
-])
-watch(locale, () => {
-  links[0].label = t('home')
-  links[0].to = localePath('/')
-  links[1].label = t('experiences')
-
-})
 </script>
 <template>
-  <UHeader :links="links">
+  <UHeader :to="localePath('/')">
     <template #logo>
-      <NuxtLink :to="localePath('/')"><h1 class="text-2xl ">Nicolas H.</h1></NuxtLink>
+      <h1 class="text-2xl ">Nicolas H.</h1>
     </template>
 
 

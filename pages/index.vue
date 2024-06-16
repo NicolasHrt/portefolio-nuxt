@@ -82,11 +82,11 @@ useSeoMeta({
         <ULandingFAQ :items="page.faq" multiple/>
       </div>
 
-      <ULandingCTA
-          :title="page.cta.title"
-          :description="page.cta.description"
-          :card="false"
-          :links="[{ label: $t('contact_me'),to:`mailto:${page.contact.email}` ,icon: 'i-material-symbols-android-chat', size: 'lg' }]"
+      <ULandingCTA id="contactMe"
+                   :title="page.cta.title"
+                   :description="page.cta.description"
+                   :card="false"
+                   :links="[{ label: $t('contact_me'),to:`mailto:${page.contact.email}` ,icon: 'i-material-symbols-android-chat', size: 'lg' }]"
       />
 
     </UContainer>
