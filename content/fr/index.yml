@@ -3,7 +3,7 @@ description: "Développeur Web Front-End"
 contact:
   email: "contact.nicolasharter@gmail.com"
   availability: false
-  CV: "/assets/Cv_Nicolas_Harter_FR.pdf"
+  CV: "/assets/CV_Nicolas_Harter_FR.pdf"
 hero:
   title: "Nicolas Harter"
   description: "Développeur Web Full-Stack, spécialisé en Vue.js/Nuxt et AdonisJS"
@@ -113,7 +113,7 @@ faq:
     content: "Bien sûr, si votre projet nécessite d'autres technologies comme React.js ou Angular, je peux m'adapter."
   - label: "Où puis-je travailler ?"
     content: "Je suis actuellement en France, mais je peux travailler à distance avec des clients du monde entier."
-  - label : "Quel est mon tarif pour un projet de développement web ?
+  - label: "Quel est mon tarif pour un projet de développement web ?
     "
     content: "Le tarif dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrais vous fournir un devis précis.
 

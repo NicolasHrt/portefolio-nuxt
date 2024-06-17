@@ -3,7 +3,7 @@ description: "Front-End Web Developer"
 contact:
   email: "contact.nicolasharter@gmail.com"
   availability: false
-  CV: "/assets/Cv_Nicolas_Harter_FR.pdf"
+  CV: "/assets/CV_Nicolas_Harter_EN.pdf"
 hero:
   title: "Nicolas Harter"
   description: "Full-Stack Web Developer, specializing in Vue.js/Nuxt and AdonisJS"
