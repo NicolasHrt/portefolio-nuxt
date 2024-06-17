@@ -1,7 +1,7 @@
 title: "Nicolas Harter"
 description: "Développeur Web Front-End"
 contact:
-  email: "contact.nicolasharter@gmail.com"
+  email: "harternicolas134@gmail.com"
   availability: false
   CV: "/assets/CV_Nicolas_Harter_FR.pdf"
 hero:
@@ -22,27 +22,26 @@ technologies:
       icon: "logos:adonisjs-icon"
     - name: "Tailwind CSS"
       icon: "i-devicon-tailwindcss"
-    - name: "Wordpress"
+    - name: "WordPress"
       icon: "simple-icons:wordpress"
-
 
 offers:
   title: "Vous avez besoin de ?"
   list:
     - title: "Développement Front-End"
-      description: "Je suis capable de réaliser/maintenir des interfaces web modernes et responsives avec les frameworks Vue.js/Nuxt et Tailwind CSS"
+      description: "Je suis capable de réaliser et maintenir des interfaces web modernes et responsives avec les frameworks Vue.js/Nuxt et Tailwind CSS"
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
     - title: "Développement Back-End"
-      description: "Je peux créer/maintenir une API rest avec le framework AdonisJs et d''intéragir avec un base de données avec des ORM comme Lucid ou Prisma"
+      description: "Je peux créer et maintenir une API REST avec le framework AdonisJS et interagir avec une base de données avec des ORM comme Lucid ou Prisma"
       icon: "i-material-symbols-database"
       class: "row-span-4 col-span-6"
     - title: "Site vitrine"
-      description: "Je suis capable de réaliser des sites vitrines pour votre entreprises avec des CMS comme Wordpress pour vous permettre d'éditer le contenu"
+      description: "Je suis capable de réaliser des sites vitrines pour votre entreprise avec des CMS comme WordPress pour vous permettre d'éditer le contenu"
       icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
-    - title: "Application Web"
-      description: "Je peux prendre en charge le dévelopement d'une application Web Full-Stack en utilisant Inertia pour combiner Vue.js (pour le front-end) et AdonisJs (pour le back-end)"
+    - title: "Application Web complète"
+      description: "Je peux prendre en charge le développement d'une application Web Full-Stack en utilisant Inertia pour combiner Vue.js (pour le front-end) et AdonisJS (pour le back-end)"
       icon: "simple-icons:inertia"
       class: "row-span-2 col-span-6"
 
@@ -54,7 +53,7 @@ experiences:
       contractType: "Alternance"
       year: "Aujourd'hui"
       period: "De septembre 2023 à aujourd'hui"
-      description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalité dans le back-office avec le framework Php Symfony."
+      description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalités dans le back-office avec le framework PHP Symfony."
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
         alt: "Logo de Hoplunch"
@@ -75,14 +74,14 @@ experiences:
       year: "2023"
       period: "D'août 2022 à septembre 2023"
       contractType: "Freelance"
-      description: "Création de plusieurs sites WordPress opérationnels avec des thèmes personnalisés pour des entreprises irlandaises bien connues, notamment Mcorm et Natural Stockcare, ainsi que des entreprises internationales telles qu'Indorama Ventures.<br><br> Collaboration avec des designers pour traduire leur vision en interfaces web responsive pour tous les appareils.<br><br> Direction du développement de sites web de la conception au lancement, démontrant une expertise en développement web indépendant."
+      description: "Création de plusieurs sites WordPress opérationnels avec des thèmes personnalisés pour des entreprises irlandaises bien connues, notamment Mcorm et Natural Stockcare, ainsi que des entreprises internationales telles qu'Indorama Ventures.<br><br> Collaboration avec des designers pour traduire leur vision en interfaces web responsives pour tous les appareils.<br><br> Direction du développement de sites web de la conception au lancement, démontrant une expertise en développement web indépendant."
       img:
         url: "https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo"
         alt: "Logo de Bradley : The Brand Agency"
       technologies:
-        - name: "Wordpress"
+        - name: "WordPress"
           icon: "i-bi-wordpress"
-        - name: "Php"
+        - name: "PHP"
           icon: "i-devicon-php"
         - name: "Tailwind CSS"
           icon: "i-logos-tailwindcss-icon"
@@ -101,23 +100,21 @@ experiences:
         url: "https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg"
         alt: "Logo de la Caisse d'Epargne Grand Est Europe"
       technologies:
-        - name: "Php"
+        - name: "PHP"
           icon: "i-devicon-php"
         - name: "JQuery"
           icon: "i-devicon-jquery"
 
 faq:
   - label: "Quel est mon parcours éducatif ?"
-    content: "Je suis titulaire d'un Diplôme d'ingénieur en Informatique  réalisé au CESI Strasbourg."
+    content: "Je suis titulaire d'un Diplôme d'ingénieur en Informatique réalisé au CESI Strasbourg."
   - label: "Suis-je flexible avec d'autres technologies ?"
     content: "Bien sûr, si votre projet nécessite d'autres technologies comme React.js ou Angular, je peux m'adapter."
   - label: "Où puis-je travailler ?"
     content: "Je suis actuellement en France, mais je peux travailler à distance avec des clients du monde entier."
-  - label: "Quel est mon tarif pour un projet de développement web ?
-    "
-    content: "Le tarif dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrais vous fournir un devis précis.
+  - label: "Quel est mon tarif pour un projet de développement web ?"
+    content: "Le tarif dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrai vous fournir un devis précis."
 
-"
 cta:
   title: "Prêt à démarrer un projet avec moi?"
   description: "Contactez-moi pour commencer. Je souhaite travailler avec vous sur votre prochain projet."
