@@ -36,12 +36,14 @@ defineProps({
           </div>
           <div v-if="experience.works">
 
-            <UButton v-if="experience.works.length === 1" :to="experience.works[0].url" icon="i-heroicons-pencil"
+            <UButton v-if="experience.works.length === 1" :to="experience.works[0].url"
+                     trailing-icon="i-heroicons-arrow-small-right"
                      target="_blank" size="xl"
                      color="black" :label="$t('check_work')"/>
 
             <UPopover v-else mode="hover">
-              <UButton color="white" size="xl" :label="$t('check_works')" icon="i-heroicons-pencil"/>
+              <UButton color="white" size="xl" :label="$t('check_works')"
+                       trailing-icon="i-heroicons-arrow-small-right"/>
 
               <template #panel>
                 <div class="p-4 grid gap-2">
