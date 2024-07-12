@@ -53,7 +53,8 @@ experiences:
       contractType: "Apprenticeship"
       year: "Present"
       period: "From September 2023 to present"
-      description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework."
+      description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework.<br><br> Developed end-to-end tests with Playwright to guarantee the integrity of the application at
+      each deployment."
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
         alt: "Hoplunch Logo"
@@ -66,6 +67,8 @@ experiences:
           icon: "i-logos-tailwindcss-icon"
         - name: "Symfony"
           icon: "i-logos-symfony"
+        - name: "Playwright"
+          icon: "i-logos-playwright"
       works:
         - name: "Hoplunch"
           url: "https://hoplunch.com"
@@ -85,11 +88,15 @@ experiences:
           icon: "i-devicon-php"
         - name: "Tailwind CSS"
           icon: "i-logos-tailwindcss-icon"
+        - name: "Bootstrap"
+          icon: "i-devicon-bootstrap"
       works:
         - name: "Mcorm.com"
           url: "https://mcorm.com/"
         - name: "Naturalstockcare.com"
           url: "https://naturalstockcare.com/"
+        - name: "Soilworx.ie"
+          url: "https://soilworx.ie/"
     - company: "Caisse d'Epargne Grand Est Europe"
       job: "Web Developer"
       contractType: "Internship"
