@@ -86,6 +86,8 @@ experiences:
           icon: "i-bi-wordpress"
         - name: "Php"
           icon: "i-devicon-php"
+        - name: "Javascript"
+          icon: "i-devicon-javascript"
         - name: "Tailwind CSS"
           icon: "i-logos-tailwindcss-icon"
         - name: "Bootstrap"
