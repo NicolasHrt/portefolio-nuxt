@@ -54,7 +54,7 @@ experiences:
       year: "Aujourd'hui"
       period: "De septembre 2023 à aujourd'hui"
       description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalités dans le back-office avec le framework PHP Symfony.<br><br> Développement de tests end-to-end avec Playwright pour garantir l’intégrité de l’application à
-      chaque déploiement"
+      chaque déploiement."
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
         alt: "Logo de Hoplunch"
