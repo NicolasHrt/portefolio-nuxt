@@ -1,7 +1,7 @@
 title: "Nicolas Harter"
 description: "Front-End Web Developer"
 contact:
-  email: "harternicolas134@gmail.com"
+  email: "contact.nicolasharter@gmail.com"
   availability: false
   CV: "/assets/CV_Nicolas_Harter_EN.pdf"
 hero:
@@ -18,8 +18,8 @@ technologies:
       icon: "i-logos-nuxt-icon"
     - name: "Supabase"
       icon: "i-devicon-supabase"
-    - name: "AdonisJS"
-      icon: "logos:adonisjs-icon"
+    - name: "Laravel"
+      icon: "i-devicon-laravel"
     - name: "Tailwind CSS"
       icon: "i-devicon-tailwindcss"
     - name: "Wordpress"
@@ -33,7 +33,7 @@ offers:
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
     - title: "Back-End Development"
-      description: "I can create/maintain a REST API with the AdonisJS framework and interact with a database using ORMs like Lucid or Prisma."
+      description: "I can develop a high-performance and reliable backend for your application using Laravel."
       icon: "i-material-symbols-database"
       class: "row-span-4 col-span-6"
     - title: "Showcase Website"
@@ -41,7 +41,7 @@ offers:
       icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
     - title: "Complete Web Application"
-      description: "I can handle the development of a Full-Stack web application using Inertia to combine Vue.js (for front-end) and AdonisJS (for back-end)."
+      description: "I can handle the development of a Full-Stack web application using Inertia to combine Vue.js (for front-end) and Laravel (for back-end)."
       icon: "simple-icons:inertia"
       class: "row-span-2 col-span-6"
 
@@ -53,7 +53,8 @@ experiences:
       contractType: "Apprenticeship"
       year: "Present"
       period: "From September 2023 to present"
-      description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework."
+      description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework.<br><br> Developed end-to-end tests with Playwright to guarantee the integrity of the application at
+      each deployment."
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
         alt: "Hoplunch Logo"
@@ -66,6 +67,8 @@ experiences:
           icon: "i-logos-tailwindcss-icon"
         - name: "Symfony"
           icon: "i-logos-symfony"
+        - name: "Playwright"
+          icon: "i-logos-playwright"
       works:
         - name: "Hoplunch"
           url: "https://hoplunch.com"
@@ -83,13 +86,19 @@ experiences:
           icon: "i-bi-wordpress"
         - name: "Php"
           icon: "i-devicon-php"
+        - name: "Javascript"
+          icon: "i-devicon-javascript"
         - name: "Tailwind CSS"
           icon: "i-logos-tailwindcss-icon"
+        - name: "Bootstrap"
+          icon: "i-devicon-bootstrap"
       works:
         - name: "Mcorm.com"
           url: "https://mcorm.com/"
         - name: "Naturalstockcare.com"
           url: "https://naturalstockcare.com/"
+        - name: "Soilworx.ie"
+          url: "https://soilworx.ie/"
     - company: "Caisse d'Epargne Grand Est Europe"
       job: "Web Developer"
       contractType: "Internship"

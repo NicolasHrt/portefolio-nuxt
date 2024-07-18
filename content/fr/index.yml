@@ -1,7 +1,7 @@
 title: "Nicolas Harter"
 description: "Développeur Web Front-End"
 contact:
-  email: "harternicolas134@gmail.com"
+  email: "contact.nicolasharter@gmail.com"
   availability: false
   CV: "/assets/CV_Nicolas_Harter_FR.pdf"
 hero:
@@ -18,8 +18,8 @@ technologies:
       icon: "i-logos-nuxt-icon"
     - name: "Supabase"
       icon: "i-devicon-supabase"
-    - name: "AdonisJS"
-      icon: "logos:adonisjs-icon"
+    - name: "Laravel"
+      icon: "i-devicon-laravel"
     - name: "Tailwind CSS"
       icon: "i-devicon-tailwindcss"
     - name: "WordPress"
@@ -33,7 +33,7 @@ offers:
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
     - title: "Développement Back-End"
-      description: "Je peux créer et maintenir une API REST avec le framework AdonisJS et interagir avec une base de données avec des ORM comme Lucid ou Prisma"
+      description: "Je peux développer un backend performant et fiable pour votre application en utilisant Laravel."
       icon: "i-material-symbols-database"
       class: "row-span-4 col-span-6"
     - title: "Site vitrine"
@@ -41,7 +41,7 @@ offers:
       icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
     - title: "Application Web complète"
-      description: "Je peux prendre en charge le développement d'une application Web Full-Stack en utilisant Inertia pour combiner Vue.js (pour le front-end) et AdonisJS (pour le back-end)"
+      description: "Je peux prendre en charge le développement d'une application Web Full-Stack en utilisant Inertia pour combiner Vue.js (pour le front-end) et Laravel'' (pour le back-end)"
       icon: "simple-icons:inertia"
       class: "row-span-2 col-span-6"
 
@@ -53,7 +53,8 @@ experiences:
       contractType: "Alternance"
       year: "Aujourd'hui"
       period: "De septembre 2023 à aujourd'hui"
-      description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalités dans le back-office avec le framework PHP Symfony."
+      description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalités dans le back-office avec le framework PHP Symfony.<br><br> Développement de tests end-to-end avec Playwright pour garantir l’intégrité de l’application à
+      chaque déploiement."
       img:
         url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
         alt: "Logo de Hoplunch"
@@ -66,6 +67,8 @@ experiences:
           icon: "i-logos-tailwindcss-icon"
         - name: "Symfony"
           icon: "i-logos-symfony"
+        - name: "Playwright"
+          icon: "i-logos-playwright"
       works:
         - name: "Hoplunch"
           url: "https://hoplunch.com"
@@ -83,13 +86,19 @@ experiences:
           icon: "i-bi-wordpress"
         - name: "PHP"
           icon: "i-devicon-php"
+        - name: "Javascript"
+          icon: "i-devicon-javascript"
         - name: "Tailwind CSS"
           icon: "i-logos-tailwindcss-icon"
+        - name: "Bootstrap"
+          icon: "i-devicon-bootstrap"
       works:
         - name: "Mcorm.com"
           url: "https://mcorm.com/"
         - name: "Naturalstockcare.com"
           url: "https://naturalstockcare.com/"
+        - name: "Soilworx.ie"
+          url: "https://soilworx.ie/"
     - company: "Caisse d'Epargne Grand Est Europe"
       job: "Développeur Web"
       contractType: "Stage"
