@@ -29,7 +29,7 @@ offers:
   title: "Vous avez besoin de ?"
   list:
     - title: "Développement Front-End"
-      description: "Je suis capable de réaliser et maintenir des interfaces web modernes et responsives avec les frameworks Vue.js/Nuxt et Tailwind CSS"
+      description: "Je suis capable de réaliser et maintenir des interfaces web modernes et responsives avec les frameworks Vue.js/Nuxt et Tailwind CSS."
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
     - title: "Développement Back-End"
@@ -37,11 +37,11 @@ offers:
       icon: "i-material-symbols-database"
       class: "row-span-4 col-span-6"
     - title: "Site vitrine"
-      description: "Je suis capable de réaliser des sites vitrines pour votre entreprise avec des CMS comme WordPress pour vous permettre d'éditer le contenu"
+      description: "Je suis capable de réaliser des sites vitrines pour votre entreprise avec des CMS comme WordPress pour vous permettre d'éditer le contenu."
       icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
     - title: "Application Web complète"
-      description: "Je peux prendre en charge le développement d'une application Web Full-Stack en utilisant Inertia pour combiner Vue.js (pour le front-end) et Laravel'' (pour le back-end)"
+      description: "Je peux prendre en charge le développement d'une application Web Full-Stack en utilisant Inertia pour combiner Vue.js (pour le front-end) et Laravel (pour le back-end)."
       icon: "simple-icons:inertia"
       class: "row-span-2 col-span-6"
 
