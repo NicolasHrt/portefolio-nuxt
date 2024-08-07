@@ -17,10 +17,10 @@
     "@vueuse/motion": "^2.1.0",
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "@nuxthq/studio": "^2.0.3"
   },
   "devDependencies": {
-    "@nuxthq/studio": "^1.0.15",
     "@nuxtjs/i18n": "^8.3.1"
   }
 }
