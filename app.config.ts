@@ -3,7 +3,7 @@ export default defineAppConfig({
         icons: {
             dynamic: true
         },
-        primary: 'emerald',
+        primary: 'green',
         gray: 'cool'
     }
 })
