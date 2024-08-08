@@ -56,7 +56,7 @@ experiences:
       description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework.<br><br> Developed end-to-end tests with Playwright to guarantee the integrity of the application at
       each deployment."
       img:
-        url: "https://media.licdn.com/dms/image/C4D0BAQHwjG056x0Hnw/company-logo_100_100/0/1630573803410/hoplunch_logo?e=1723075200&v=beta&t=4dq8ltyeCJmJyDFyRbSfn-RdVBfEbLkrxv-tMW6MgJo"
+        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMRCvTX4hN18ejxh0ZRDXhr-iYLXoxn8C1ew&s"
         alt: "Hoplunch Logo"
       technologies:
         - name: "Vue.js"
