@@ -28,7 +28,7 @@ useSeoMeta({
       <ULandingHero v-motion-fade-visible :ui="{wrapper: 'md:py-24'}"
                     v-bind="page.hero"
                     orientation="horizontal"
-                    :links="[{ label: $t('my_CV'), to:page.contact.CV, target:'_blank',color:'black', icon: 'i-pepicons-pop-cv', size: 'lg' },{ label: $t('contact_me'),to:`mailto:${page.contact.email}`  ,icon: 'i-material-symbols-android-chat', size: 'lg' }]">
+                    :links="[{ label: $t('my_CV'), to:`${page.contact.CV}#zoom=55`, target:'_blank',color:'black', icon: 'i-pepicons-pop-cv', size: 'lg' },{ label: $t('contact_me'),to:`mailto:${page.contact.email}`  ,icon: 'i-material-symbols-android-chat', size: 'lg' }]">
         <template #headline>
           <WorkAvailability v-bind="page.contact"/>
         </template>
