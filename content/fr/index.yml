@@ -2,28 +2,30 @@ title: "Nicolas Harter"
 description: "Développeur Web Front-End"
 contact:
   email: "contact.nicolasharter@gmail.com"
-  availability: false
+  availability: true
   CV: "/assets/CV_Nicolas_Harter_FR.pdf"
 hero:
   title: "Nicolas Harter"
   description: "Développeur Web Front-End, spécialisé en Vue.js et Nuxt"
-  img: "/assets/me.jpeg"
+  img: "/assets/me.jpg"
 
 technologies:
   title: "Mes compétences"
   list:
-    - name: "Vue.js"
-      icon: "i-devicon-vuejs"
-    - name: "Nuxt"
-      icon: "i-logos-nuxt-icon"
+
     - name: "Supabase"
       icon: "i-devicon-supabase"
-    - name: "Laravel"
-      icon: "i-devicon-laravel"
+    - name: "Nuxt"
+      icon: "i-logos-nuxt-icon"
+    - name: "Vue.js"
+      icon: "i-devicon-vuejs"
+    - name: "Typescript"
+      icon: "i-devicon-typescript"
     - name: "Tailwind CSS"
       icon: "i-devicon-tailwindcss"
-    - name: "WordPress"
-      icon: "simple-icons:wordpress"
+
+#    - name: "WordPress"
+#      icon: "simple-icons:wordpress"
 
 offers:
   title: "Vous avez besoin de ?"
@@ -33,7 +35,7 @@ offers:
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
     - title: "Développement Back-End"
-      description: "Je peux développer un backend performant et fiable pour votre application en utilisant Laravel."
+      description: "Je peux développer un backend performant et fiable pour votre application en utilisant Supabase ou Laravel pour des projets plus complexes."
       icon: "i-material-symbols-database"
       class: "row-span-4 col-span-6"
     - title: "Site vitrine"
@@ -41,8 +43,8 @@ offers:
       icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
     - title: "Application Web complète"
-      description: "Je peux prendre en charge le développement d'une application Web Full-Stack en utilisant Inertia pour combiner Vue.js (pour le front-end) et Laravel (pour le back-end)."
-      icon: "simple-icons:inertia"
+      description: "Je peux prendre en charge le développement d'une application Web Full-Stack avec Nuxt/Supabase ou Laravel si nécessaire."
+      icon: "f7:square-stack-3d-up-fill"
       class: "row-span-2 col-span-6"
 
 experiences:

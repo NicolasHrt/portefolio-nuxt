@@ -2,47 +2,45 @@ title: "Nicolas Harter"
 description: "Front-End Web Developer"
 contact:
   email: "contact.nicolasharter@gmail.com"
-  availability: false
+  availability: true
   CV: "/assets/CV_Nicolas_Harter_EN.pdf"
 hero:
   title: "Nicolas Harter"
   description: "Front-End Web Developer, specializing in Vue.js and Nuxt"
-  img: "/assets/me.jpeg"
+  img: "/assets/me.jpg"
 
 technologies:
   title: "My Skills"
   list:
+    - name: "Typescript"
+      icon: "i-devicon-typescript"
+    - name: "Tailwind CSS"
+      icon: "i-devicon-tailwindcss"
     - name: "Vue.js"
       icon: "i-devicon-vuejs"
     - name: "Nuxt"
       icon: "i-logos-nuxt-icon"
     - name: "Supabase"
       icon: "i-devicon-supabase"
-    - name: "Laravel"
-      icon: "i-devicon-laravel"
-    - name: "Tailwind CSS"
-      icon: "i-devicon-tailwindcss"
-    - name: "Wordpress"
-      icon: "simple-icons:wordpress"
 
 offers:
   title: "Need help with?"
   list:
     - title: "Front-End Development"
-      description: "I can create/maintain modern and responsive web interfaces using Vue.js/Nuxt and Tailwind CSS frameworks."
+      description: "I am capable of creating and maintaining modern and responsive web interfaces using Vue.js/Nuxt and Tailwind CSS frameworks."
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
     - title: "Back-End Development"
-      description: "I can develop a high-performance and reliable backend for your application using Laravel."
+      description: "I can develop a performant and reliable backend for your application using Supabase or Laravel for more complex projects."
       icon: "i-material-symbols-database"
       class: "row-span-4 col-span-6"
     - title: "Showcase Website"
-      description: "I can create showcase websites for your business using CMS like WordPress to allow you to edit the content."
+      description: "I am capable of creating showcase websites for your business using CMS like WordPress to allow you to edit the content."
       icon: "ic:baseline-wordpress"
       class: "row-span-4 col-span-6"
-    - title: "Complete Web Application"
-      description: "I can handle the development of a Full-Stack web application using Inertia to combine Vue.js (for front-end) and Laravel (for back-end)."
-      icon: "simple-icons:inertia"
+    - title: "Full-Stack Web Application"
+      description: "I can handle the development of a Full-Stack web application with Nuxt/Supabase or Laravel if necessary."
+      icon: "f7:square-stack-3d-up-fill"
       class: "row-span-2 col-span-6"
 
 experiences:

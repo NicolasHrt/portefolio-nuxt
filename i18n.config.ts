@@ -20,7 +20,7 @@ export default defineI18nConfig(() => ({
             english: 'Anglais',
             home: 'Accueil',
             experiences: 'Mes expériences',
-            availability: 'Disponible pour des missions freelance',
+            available: 'Disponible pour des missions freelance',
             not_available: 'Non disponible pour des missions freelance',
             my_CV: 'Mon CV',
             contact_me: 'Me contacter',
