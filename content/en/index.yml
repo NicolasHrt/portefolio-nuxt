@@ -30,9 +30,9 @@ offers:
       description: "I am capable of creating and maintaining modern and responsive web interfaces using Vue.js/Nuxt and Tailwind CSS frameworks."
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
-    - title: "Back-End Development"
-      description: "I can develop a performant and reliable backend for your application using Supabase or Laravel for more complex projects."
-      icon: "i-material-symbols-database"
+    - title: "User Experience Optimization (UX)"
+      description: "I can improve the user experience of your website or web application by identifying areas for improvement and proposing solutions for a more intuitive and enjoyable navigation."
+      icon: "material-symbols:design-services-outline"
       class: "row-span-4 col-span-6"
     - title: "Showcase Website"
       description: "I am capable of creating showcase websites for your business using CMS like WordPress to allow you to edit the content."
@@ -50,7 +50,7 @@ experiences:
       job: "Web Developer"
       contractType: "Apprenticeship"
       year: "Present"
-      period: "From September 2023 to present"
+      period: "From September 2023 to September 2024"
       description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework.<br><br> Developed end-to-end tests with Playwright to guarantee the integrity of the application at
       each deployment."
       img:
@@ -73,7 +73,7 @@ experiences:
     - company: "Bradley : The Brand Agency"
       job: "Web Developer"
       year: "2023"
-      period: "From August 2022 to September 2023"
+      period: "From August 2022 to September 2024"
       contractType: "Freelance"
       description: "Created several operational WordPress sites with custom themes for well-known Irish companies like Mcorm and Natural Stockcare, as well as international companies like Indorama Ventures.<br><br> Collaborated with designers to translate their vision into responsive web interfaces for all devices.<br><br> Led the development of websites from conception to launch, demonstrating expertise in independent web development."
       img:

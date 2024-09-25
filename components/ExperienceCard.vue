@@ -42,7 +42,7 @@ defineProps({
                      :label="$t('check_work')"/>
 
             <UPopover v-else mode="hover">
-              <UButton size="xl" :label="$t('check_works')"
+              <UButton size="xl" :label="$t('check_works')" color="gray"
                        trailing-icon="i-heroicons-arrow-small-right"/>
 
               <template #panel>

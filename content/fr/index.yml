@@ -34,9 +34,9 @@ offers:
       description: "Je suis capable de réaliser et maintenir des interfaces web modernes et responsives avec les frameworks Vue.js/Nuxt et Tailwind CSS."
       icon: "i-heroicons-computer-desktop"
       class: "row-span-2 col-span-6"
-    - title: "Développement Back-End"
-      description: "Je peux développer un backend performant et fiable pour votre application en utilisant Supabase ou Laravel pour des projets plus complexes."
-      icon: "i-material-symbols-database"
+    - title: "Optimisation de l'expérience utilisateur (UX)"
+      description: "Je peux améliorer l'expérience utilisateur de votre site ou application web en identifiant les points d'amélioration et en proposant des solutions pour une navigation plus intuitive et plus agréable."
+      icon: "material-symbols:design-services-outline"
       class: "row-span-4 col-span-6"
     - title: "Site vitrine"
       description: "Je suis capable de réaliser des sites vitrines pour votre entreprise avec des CMS comme WordPress pour vous permettre d'éditer le contenu."
@@ -54,7 +54,7 @@ experiences:
       job: "Développeur Web"
       contractType: "Alternance"
       year: "Aujourd'hui"
-      period: "De septembre 2023 à aujourd'hui"
+      period: "De septembre 2023 à septembre 2024"
       description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalités dans le back-office avec le framework PHP Symfony.<br><br> Développement de tests end-to-end avec Playwright pour garantir l’intégrité de l’application à
       chaque déploiement."
       img:
@@ -77,7 +77,7 @@ experiences:
     - company: "Bradley : The Brand Agency"
       job: "Développeur Web"
       year: "2023"
-      period: "D'août 2022 à septembre 2023"
+      period: "D'août 2022 à septembre 2024"
       contractType: "Freelance"
       description: "Création de plusieurs sites WordPress opérationnels avec des thèmes personnalisés pour des entreprises irlandaises bien connues, notamment Mcorm et Natural Stockcare, ainsi que des entreprises internationales telles qu'Indorama Ventures.<br><br> Collaboration avec des designers pour traduire leur vision en interfaces web responsives pour tous les appareils.<br><br> Direction du développement de sites web de la conception au lancement, démontrant une expertise en développement web indépendant."
       img:
