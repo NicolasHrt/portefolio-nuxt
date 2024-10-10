@@ -1,131 +1,129 @@
-title: "Nicolas Harter"
-description: "Développeur Web Front-End"
+title: 'Nicolas Harter'
+description: 'Développeur Web Front-End'
 contact:
-  email: "contact.nicolasharter@gmail.com"
+  email: 'contact.nicolasharter@gmail.com'
   availability: true
-  CV: "/assets/CV_Nicolas_Harter_FR.pdf"
+  CV: '/assets/CV_Nicolas_Harter_FR.pdf'
 hero:
-  title: "Nicolas Harter"
-  description: "Développeur Web Front-End, spécialisé en Vue.js et Nuxt"
-  img: "/assets/me.jpg"
+  title: 'Nicolas Harter'
+  description: 'Développeur Web Front-End, spécialisé en Vue.js et Nuxt'
+  img: '/assets/me.jpg'
 
 technologies:
-  title: "Mes compétences"
+  title: 'Mes compétences'
   list:
-
-    - name: "Supabase"
-      icon: "i-devicon-supabase"
-    - name: "Nuxt"
-      icon: "i-logos-nuxt-icon"
-    - name: "Vue.js"
-      icon: "i-devicon-vuejs"
-    - name: "Typescript"
-      icon: "i-devicon-typescript"
-    - name: "Tailwind CSS"
-      icon: "i-devicon-tailwindcss"
+    - name: 'Nuxt'
+      icon: 'i-logos-nuxt-icon'
+    - name: 'Vue.js'
+      icon: 'i-devicon-vuejs'
+    - name: 'Supabase'
+      icon: 'i-devicon-supabase'
+    - name: 'Typescript'
+      icon: 'i-devicon-typescript'
+    - name: 'Tailwind CSS'
+      icon: 'i-devicon-tailwindcss'
 
 #    - name: "WordPress"
 #      icon: "simple-icons:wordpress"
 
 offers:
-  title: "Vous avez besoin de ?"
+  title: 'Vous avez besoin de ?'
   list:
-    - title: "Développement Front-End"
-      description: "Je suis capable de réaliser et maintenir des interfaces web modernes et responsives avec les frameworks Vue.js/Nuxt et Tailwind CSS."
-      icon: "i-heroicons-computer-desktop"
-      class: "row-span-2 col-span-6"
+    - title: 'Développement Front-End'
+      description: 'Je suis capable de réaliser et maintenir des interfaces web modernes et responsives avec les frameworks Vue.js/Nuxt et Tailwind CSS.'
+      icon: 'i-heroicons-computer-desktop'
+      class: 'row-span-2 col-span-6'
     - title: "Optimisation de l'expérience utilisateur (UX)"
       description: "Je peux améliorer l'expérience utilisateur de votre site ou application web en identifiant les points d'amélioration et en proposant des solutions pour une navigation plus intuitive et plus agréable."
-      icon: "material-symbols:design-services-outline"
-      class: "row-span-4 col-span-6"
-    - title: "Site vitrine"
+      icon: 'material-symbols:design-services-outline'
+      class: 'row-span-4 col-span-6'
+    - title: 'Site vitrine'
       description: "Je suis capable de réaliser des sites vitrines pour votre entreprise avec des CMS comme WordPress pour vous permettre d'éditer le contenu."
-      icon: "ic:baseline-wordpress"
-      class: "row-span-4 col-span-6"
-    - title: "Application Web complète"
+      icon: 'ic:baseline-wordpress'
+      class: 'row-span-4 col-span-6'
+    - title: 'Application Web complète'
       description: "Je peux prendre en charge le développement d'une application Web Full-Stack avec Nuxt/Supabase ou Laravel si nécessaire."
-      icon: "f7:square-stack-3d-up-fill"
-      class: "row-span-2 col-span-6"
+      icon: 'f7:square-stack-3d-up-fill'
+      class: 'row-span-2 col-span-6'
 
 experiences:
-  title: "Mes expériences"
+  title: 'Mes expériences'
   list:
-    - company: "Hoplunch"
-      job: "Développeur Web"
-      contractType: "Alternance"
+    - company: 'Hoplunch'
+      job: 'Développeur Web'
+      contractType: 'Alternance'
       year: "Aujourd'hui"
-      period: "De septembre 2023 à septembre 2024"
-      description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalités dans le back-office avec le framework PHP Symfony.<br><br> Développement de tests end-to-end avec Playwright pour garantir l’intégrité de l’application à
-      chaque déploiement."
+      period: 'De septembre 2023 à septembre 2024'
+      description: "Contribution significative au développement et à l'amélioration du site web de Hoplunch, en utilisant le framework Nuxt.js.<br><br> Participation active aux réunions d'équipe, en apportant des idées et des suggestions pour améliorer l'UI/UX du site.<br><br>Ajout de fonctionnalités dans le back-office avec le framework PHP Symfony.<br><br> Développement de tests end-to-end avec Playwright pour garantir l’intégrité de l’application à chaque déploiement."
       img:
-        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMRCvTX4hN18ejxh0ZRDXhr-iYLXoxn8C1ew&s"
-        alt: "Logo de Hoplunch"
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMRCvTX4hN18ejxh0ZRDXhr-iYLXoxn8C1ew&s'
+        alt: 'Logo de Hoplunch'
       technologies:
-        - name: "Vue.js"
-          icon: "i-devicon-vuejs"
-        - name: "Nuxt"
-          icon: "i-logos-nuxt-icon"
-        - name: "Tailwind CSS"
-          icon: "i-logos-tailwindcss-icon"
-        - name: "Symfony"
-          icon: "i-logos-symfony"
-        - name: "Playwright"
-          icon: "i-logos-playwright"
+        - name: 'Vue.js'
+          icon: 'i-devicon-vuejs'
+        - name: 'Nuxt'
+          icon: 'i-logos-nuxt-icon'
+        - name: 'Tailwind CSS'
+          icon: 'i-logos-tailwindcss-icon'
+        - name: 'Symfony'
+          icon: 'i-logos-symfony'
+        - name: 'Playwright'
+          icon: 'i-logos-playwright'
       works:
-        - name: "Hoplunch"
-          url: "https://hoplunch.com"
-    - company: "Bradley : The Brand Agency"
-      job: "Développeur Web"
-      year: "2023"
+        - name: 'Hoplunch'
+          url: 'https://hoplunch.com'
+    - company: 'Bradley : The Brand Agency'
+      job: 'Développeur Web'
+      year: '2023'
       period: "D'août 2022 à septembre 2024"
-      contractType: "Freelance"
+      contractType: 'Freelance'
       description: "Création de plusieurs sites WordPress opérationnels avec des thèmes personnalisés pour des entreprises irlandaises bien connues, notamment Mcorm et Natural Stockcare, ainsi que des entreprises internationales telles qu'Indorama Ventures.<br><br> Collaboration avec des designers pour traduire leur vision en interfaces web responsives pour tous les appareils.<br><br> Direction du développement de sites web de la conception au lancement, démontrant une expertise en développement web indépendant."
       img:
-        url: "https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo"
-        alt: "Logo de Bradley : The Brand Agency"
+        url: 'https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo'
+        alt: 'Logo de Bradley : The Brand Agency'
       technologies:
-        - name: "WordPress"
-          icon: "i-bi-wordpress"
-        - name: "PHP"
-          icon: "i-devicon-php"
-        - name: "Javascript"
-          icon: "i-devicon-javascript"
-        - name: "Tailwind CSS"
-          icon: "i-logos-tailwindcss-icon"
-        - name: "Bootstrap"
-          icon: "i-devicon-bootstrap"
+        - name: 'WordPress'
+          icon: 'i-bi-wordpress'
+        - name: 'PHP'
+          icon: 'i-devicon-php'
+        - name: 'Javascript'
+          icon: 'i-devicon-javascript'
+        - name: 'Tailwind CSS'
+          icon: 'i-logos-tailwindcss-icon'
+        - name: 'Bootstrap'
+          icon: 'i-devicon-bootstrap'
       works:
-        - name: "Mcorm.com"
-          url: "https://mcorm.com/"
-        - name: "Naturalstockcare.com"
-          url: "https://naturalstockcare.com/"
-        - name: "Soilworx.ie"
-          url: "https://soilworx.ie/"
+        - name: 'Mcorm.com'
+          url: 'https://mcorm.com/'
+        - name: 'Naturalstockcare.com'
+          url: 'https://naturalstockcare.com/'
+        - name: 'Soilworx.ie'
+          url: 'https://soilworx.ie/'
     - company: "Caisse d'Epargne Grand Est Europe"
-      job: "Développeur Web"
-      contractType: "Stage"
-      year: "2022"
-      period: "De janvier 2022 à avril 2022"
+      job: 'Développeur Web'
+      contractType: 'Stage'
+      year: '2022'
+      period: 'De janvier 2022 à avril 2022'
       description: "Développement et production d'applications PHP/JQuery/Oracle.<br>Rédaction de documentation."
       img:
-        url: "https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg"
+        url: 'https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg'
         alt: "Logo de la Caisse d'Epargne Grand Est Europe"
       technologies:
-        - name: "PHP"
-          icon: "i-devicon-php"
-        - name: "JQuery"
-          icon: "i-devicon-jquery"
+        - name: 'PHP'
+          icon: 'i-devicon-php'
+        - name: 'JQuery'
+          icon: 'i-devicon-jquery'
 
 faq:
-  - label: "Quel est mon parcours éducatif ?"
+  - label: 'Quel est mon parcours éducatif ?'
     content: "Je suis titulaire d'un Diplôme d'ingénieur en Informatique réalisé au CESI Strasbourg."
   - label: "Suis-je flexible avec d'autres technologies ?"
     content: "Bien sûr, si votre projet nécessite d'autres technologies comme React.js ou Angular, je peux m'adapter."
-  - label: "Où puis-je travailler ?"
-    content: "Je suis actuellement en France, mais je peux travailler à distance avec des clients du monde entier."
-  - label: "Quel est mon tarif pour un projet de développement web ?"
-    content: "Le tarif dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrai vous fournir un devis précis."
+  - label: 'Où puis-je travailler ?'
+    content: 'Je suis actuellement en France, mais je peux travailler à distance avec des clients du monde entier.'
+  - label: 'Quel est mon tarif pour un projet de développement web ?'
+    content: 'Le tarif dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrai vous fournir un devis précis.'
 
 cta:
-  title: "Prêt à démarrer un projet avec moi?"
-  description: "Contactez-moi pour commencer. Je souhaite travailler avec vous sur votre prochain projet."
+  title: 'Prêt à démarrer un projet avec moi?'
+  description: 'Contactez-moi pour commencer. Je souhaite travailler avec vous sur votre prochain projet.'

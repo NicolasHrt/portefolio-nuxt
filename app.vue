@@ -1,9 +1,9 @@
 <template>
-  <Navbar/>
+  <Navbar />
   <UMain class="overflow-x-hidden">
     <NuxtLayout>
-      <NuxtPage/>
+      <NuxtPage />
     </NuxtLayout>
   </UMain>
-  <Footer/>
+  <Footer />
 </template>

@@ -1,127 +1,126 @@
-title: "Nicolas Harter"
-description: "Front-End Web Developer"
+title: 'Nicolas Harter'
+description: 'Front-End Web Developer'
 contact:
-  email: "contact.nicolasharter@gmail.com"
+  email: 'contact.nicolasharter@gmail.com'
   availability: true
-  CV: "/assets/CV_Nicolas_Harter_EN.pdf"
+  CV: '/assets/CV_Nicolas_Harter_EN.pdf'
 hero:
-  title: "Nicolas Harter"
-  description: "Front-End Web Developer, specializing in Vue.js and Nuxt"
-  img: "/assets/me.jpg"
+  title: 'Nicolas Harter'
+  description: 'Front-End Web Developer, specializing in Vue.js and Nuxt'
+  img: '/assets/me.jpg'
 
 technologies:
-  title: "My Skills"
+  title: 'My Skills'
   list:
-    - name: "Typescript"
-      icon: "i-devicon-typescript"
-    - name: "Tailwind CSS"
-      icon: "i-devicon-tailwindcss"
-    - name: "Vue.js"
-      icon: "i-devicon-vuejs"
-    - name: "Nuxt"
-      icon: "i-logos-nuxt-icon"
-    - name: "Supabase"
-      icon: "i-devicon-supabase"
+    - name: 'Vue.js'
+      icon: 'i-devicon-vuejs'
+    - name: 'Nuxt'
+      icon: 'i-logos-nuxt-icon'
+    - name: 'Supabase'
+      icon: 'i-devicon-supabase'
+    - name: 'Typescript'
+      icon: 'i-devicon-typescript'
+    - name: 'Tailwind CSS'
+      icon: 'i-devicon-tailwindcss'
 
 offers:
-  title: "Need help with?"
+  title: 'Need help with?'
   list:
-    - title: "Front-End Development"
-      description: "I am capable of creating and maintaining modern and responsive web interfaces using Vue.js/Nuxt and Tailwind CSS frameworks."
-      icon: "i-heroicons-computer-desktop"
-      class: "row-span-2 col-span-6"
-    - title: "User Experience Optimization (UX)"
-      description: "I can improve the user experience of your website or web application by identifying areas for improvement and proposing solutions for a more intuitive and enjoyable navigation."
-      icon: "material-symbols:design-services-outline"
-      class: "row-span-4 col-span-6"
-    - title: "Showcase Website"
-      description: "I am capable of creating showcase websites for your business using CMS like WordPress to allow you to edit the content."
-      icon: "ic:baseline-wordpress"
-      class: "row-span-4 col-span-6"
-    - title: "Full-Stack Web Application"
-      description: "I can handle the development of a Full-Stack web application with Nuxt/Supabase or Laravel if necessary."
-      icon: "f7:square-stack-3d-up-fill"
-      class: "row-span-2 col-span-6"
+    - title: 'Front-End Development'
+      description: 'I am capable of creating and maintaining modern and responsive web interfaces using Vue.js/Nuxt and Tailwind CSS frameworks.'
+      icon: 'i-heroicons-computer-desktop'
+      class: 'row-span-2 col-span-6'
+    - title: 'User Experience Optimization (UX)'
+      description: 'I can improve the user experience of your website or web application by identifying areas for improvement and proposing solutions for a more intuitive and enjoyable navigation.'
+      icon: 'material-symbols:design-services-outline'
+      class: 'row-span-4 col-span-6'
+    - title: 'Showcase Website'
+      description: 'I am capable of creating showcase websites for your business using CMS like WordPress to allow you to edit the content.'
+      icon: 'ic:baseline-wordpress'
+      class: 'row-span-4 col-span-6'
+    - title: 'Full-Stack Web Application'
+      description: 'I can handle the development of a Full-Stack web application with Nuxt/Supabase or Laravel if necessary.'
+      icon: 'f7:square-stack-3d-up-fill'
+      class: 'row-span-2 col-span-6'
 
 experiences:
-  title: "My Experiences"
+  title: 'My Experiences'
   list:
-    - company: "Hoplunch"
-      job: "Web Developer"
-      contractType: "Apprenticeship"
-      year: "Present"
-      period: "From September 2023 to September 2024"
-      description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework.<br><br> Developed end-to-end tests with Playwright to guarantee the integrity of the application at
-      each deployment."
+    - company: 'Hoplunch'
+      job: 'Web Developer'
+      contractType: 'Apprenticeship'
+      year: 'Present'
+      period: 'From September 2023 to September 2024'
+      description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework.<br><br> Developed end-to-end tests with Playwright to guarantee the integrity of the application at each deployment."
       img:
-        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMRCvTX4hN18ejxh0ZRDXhr-iYLXoxn8C1ew&s"
-        alt: "Hoplunch Logo"
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMRCvTX4hN18ejxh0ZRDXhr-iYLXoxn8C1ew&s'
+        alt: 'Hoplunch Logo'
       technologies:
-        - name: "Vue.js"
-          icon: "i-devicon-vuejs"
-        - name: "Nuxt"
-          icon: "i-logos-nuxt-icon"
-        - name: "Tailwind CSS"
-          icon: "i-logos-tailwindcss-icon"
-        - name: "Symfony"
-          icon: "i-logos-symfony"
-        - name: "Playwright"
-          icon: "i-logos-playwright"
+        - name: 'Vue.js'
+          icon: 'i-devicon-vuejs'
+        - name: 'Nuxt'
+          icon: 'i-logos-nuxt-icon'
+        - name: 'Tailwind CSS'
+          icon: 'i-logos-tailwindcss-icon'
+        - name: 'Symfony'
+          icon: 'i-logos-symfony'
+        - name: 'Playwright'
+          icon: 'i-logos-playwright'
       works:
-        - name: "Hoplunch"
-          url: "https://hoplunch.com"
-    - company: "Bradley : The Brand Agency"
-      job: "Web Developer"
-      year: "2023"
-      period: "From August 2022 to September 2024"
-      contractType: "Freelance"
-      description: "Created several operational WordPress sites with custom themes for well-known Irish companies like Mcorm and Natural Stockcare, as well as international companies like Indorama Ventures.<br><br> Collaborated with designers to translate their vision into responsive web interfaces for all devices.<br><br> Led the development of websites from conception to launch, demonstrating expertise in independent web development."
+        - name: 'Hoplunch'
+          url: 'https://hoplunch.com'
+    - company: 'Bradley : The Brand Agency'
+      job: 'Web Developer'
+      year: '2023'
+      period: 'From August 2022 to September 2024'
+      contractType: 'Freelance'
+      description: 'Created several operational WordPress sites with custom themes for well-known Irish companies like Mcorm and Natural Stockcare, as well as international companies like Indorama Ventures.<br><br> Collaborated with designers to translate their vision into responsive web interfaces for all devices.<br><br> Led the development of websites from conception to launch, demonstrating expertise in independent web development.'
       img:
-        url: "https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo"
-        alt: "Bradley : The Brand Agency Logo"
+        url: 'https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo'
+        alt: 'Bradley : The Brand Agency Logo'
       technologies:
-        - name: "Wordpress"
-          icon: "i-bi-wordpress"
-        - name: "Php"
-          icon: "i-devicon-php"
-        - name: "Javascript"
-          icon: "i-devicon-javascript"
-        - name: "Tailwind CSS"
-          icon: "i-logos-tailwindcss-icon"
-        - name: "Bootstrap"
-          icon: "i-devicon-bootstrap"
+        - name: 'Wordpress'
+          icon: 'i-bi-wordpress'
+        - name: 'Php'
+          icon: 'i-devicon-php'
+        - name: 'Javascript'
+          icon: 'i-devicon-javascript'
+        - name: 'Tailwind CSS'
+          icon: 'i-logos-tailwindcss-icon'
+        - name: 'Bootstrap'
+          icon: 'i-devicon-bootstrap'
       works:
-        - name: "Mcorm.com"
-          url: "https://mcorm.com/"
-        - name: "Naturalstockcare.com"
-          url: "https://naturalstockcare.com/"
-        - name: "Soilworx.ie"
-          url: "https://soilworx.ie/"
+        - name: 'Mcorm.com'
+          url: 'https://mcorm.com/'
+        - name: 'Naturalstockcare.com'
+          url: 'https://naturalstockcare.com/'
+        - name: 'Soilworx.ie'
+          url: 'https://soilworx.ie/'
     - company: "Caisse d'Epargne Grand Est Europe"
-      job: "Web Developer"
-      contractType: "Internship"
-      year: "2022"
-      period: "From January 2022 to April 2022"
-      description: "Development and production of PHP/JQuery/Oracle applications.<br>Documentation writing."
+      job: 'Web Developer'
+      contractType: 'Internship'
+      year: '2022'
+      period: 'From January 2022 to April 2022'
+      description: 'Development and production of PHP/JQuery/Oracle applications.<br>Documentation writing.'
       img:
-        url: "https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg"
+        url: 'https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg'
         alt: "Caisse d'Epargne Grand Est Europe Logo"
       technologies:
-        - name: "Php"
-          icon: "i-devicon-php"
-        - name: "JQuery"
-          icon: "i-devicon-jquery"
+        - name: 'Php'
+          icon: 'i-devicon-php'
+        - name: 'JQuery'
+          icon: 'i-devicon-jquery'
 
 faq:
-  - label: "What is my educational background?"
-    content: "I hold an engineering degree in Computer Science from CESI Strasbourg."
-  - label: "Am I flexible with other technologies?"
-    content: "Absolutely, if your project requires other technologies like React.js or Angular, I can adapt."
-  - label: "Where can I work?"
-    content: "I am currently based in France, but I can work remotely with clients from all over the world."
-  - label: "What is my rate for a web development project?"
-    content: "The rate depends on the complexity and duration of the project. After an initial discussion to define your needs, I can provide you with a precise quote."
+  - label: 'What is my educational background?'
+    content: 'I hold an engineering degree in Computer Science from CESI Strasbourg.'
+  - label: 'Am I flexible with other technologies?'
+    content: 'Absolutely, if your project requires other technologies like React.js or Angular, I can adapt.'
+  - label: 'Where can I work?'
+    content: 'I am currently based in France, but I can work remotely with clients from all over the world.'
+  - label: 'What is my rate for a web development project?'
+    content: 'The rate depends on the complexity and duration of the project. After an initial discussion to define your needs, I can provide you with a precise quote.'
 
 cta:
-  title: "Ready to start a project with me?"
-  description: "Contact me to get started. I look forward to working with you on your next project."
+  title: 'Ready to start a project with me?'
+  description: 'Contact me to get started. I look forward to working with you on your next project.'

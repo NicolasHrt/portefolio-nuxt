@@ -14,13 +14,15 @@
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.15.2",
     "@nuxt/ui-pro": "^1.1.0",
+    "@nuxthq/studio": "^2.0.3",
     "@vueuse/motion": "^2.1.0",
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "@nuxthq/studio": "^2.0.3"
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@nuxtjs/i18n": "^8.3.1"
+    "@nuxtjs/i18n": "^8.3.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8"
   }
 }
