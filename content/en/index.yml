@@ -12,12 +12,12 @@ hero:
 technologies:
   title: 'My Skills'
   list:
-    - name: 'Vue.js'
-      icon: 'i-devicon-vuejs'
-    - name: 'Nuxt'
-      icon: 'i-logos-nuxt-icon'
     - name: 'Supabase'
       icon: 'i-devicon-supabase'
+    - name: 'Nuxt'
+      icon: 'i-logos-nuxt-icon'
+    - name: 'Vue.js'
+      icon: 'i-devicon-vuejs'
     - name: 'Typescript'
       icon: 'i-devicon-typescript'
     - name: 'Tailwind CSS'

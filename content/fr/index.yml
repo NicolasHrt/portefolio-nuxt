@@ -12,12 +12,12 @@ hero:
 technologies:
   title: 'Mes compétences'
   list:
+    - name: 'Supabase'
+      icon: 'i-devicon-supabase'
     - name: 'Nuxt'
       icon: 'i-logos-nuxt-icon'
     - name: 'Vue.js'
       icon: 'i-devicon-vuejs'
-    - name: 'Supabase'
-      icon: 'i-devicon-supabase'
     - name: 'Typescript'
       icon: 'i-devicon-typescript'
     - name: 'Tailwind CSS'
