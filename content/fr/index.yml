@@ -12,8 +12,8 @@ hero:
 technologies:
   title: 'Mes compétences'
   list:
-    - name: 'Supabase'
-      icon: 'i-devicon-supabase'
+    - name: 'AdonisJs'
+      icon: 'logos:adonisjs-icon'
     - name: 'Nuxt'
       icon: 'i-logos-nuxt-icon'
     - name: 'Vue.js'
@@ -22,9 +22,6 @@ technologies:
       icon: 'i-devicon-typescript'
     - name: 'Tailwind CSS'
       icon: 'i-devicon-tailwindcss'
-
-#    - name: "WordPress"
-#      icon: "simple-icons:wordpress"
 
 offers:
   title: 'Vous avez besoin de ?'
@@ -42,7 +39,7 @@ offers:
       icon: 'ic:baseline-wordpress'
       class: 'row-span-4 col-span-6'
     - title: 'Application Web complète'
-      description: "Je peux prendre en charge le développement d'une application Web Full-Stack avec Nuxt/Supabase ou Laravel si nécessaire."
+      description: "Je peux prendre en charge le développement d'une application Web Full-Stack avec Nuxt/AdonisJs."
       icon: 'f7:square-stack-3d-up-fill'
       class: 'row-span-2 col-span-6'
 
@@ -126,4 +123,4 @@ faq:
 
 cta:
   title: 'Prêt à démarrer un projet avec moi?'
-  description: 'Contactez-moi pour commencer. Je souhaite travailler avec vous sur votre prochain projet.'
+  description: "N'hésitez pas à me contacter pour discuter de votre prochain projet. Je serais ravi de collaborer avec vous."

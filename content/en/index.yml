@@ -12,8 +12,8 @@ hero:
 technologies:
   title: 'My Skills'
   list:
-    - name: 'Supabase'
-      icon: 'i-devicon-supabase'
+    - name: 'AdonisJs'
+      icon: 'logos:adonisjs-icon'
     - name: 'Nuxt'
       icon: 'i-logos-nuxt-icon'
     - name: 'Vue.js'
@@ -39,7 +39,7 @@ offers:
       icon: 'ic:baseline-wordpress'
       class: 'row-span-4 col-span-6'
     - title: 'Full-Stack Web Application'
-      description: 'I can handle the development of a Full-Stack web application with Nuxt/Supabase or Laravel if necessary.'
+      description: 'I can handle the development of a Full-Stack web application with Nuxt/AdonisJs.'
       icon: 'f7:square-stack-3d-up-fill'
       class: 'row-span-2 col-span-6'
 
@@ -123,4 +123,4 @@ faq:
 
 cta:
   title: 'Ready to start a project with me?'
-  description: 'Contact me to get started. I look forward to working with you on your next project.'
+  description: "Don't hesitate to contact me to discuss your next project. I would be delighted to collaborate with you."
