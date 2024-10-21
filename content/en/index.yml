@@ -1,7 +1,7 @@
 title: 'Nicolas Harter'
 description: 'Front-End Web Developer'
 contact:
-  email: 'contact.nicolasharter@gmail.com'
+  email: 'pro.nicolasharter@gmail.com'
   availability: true
   CV: '/assets/CV_Nicolas_Harter_EN.pdf'
 hero:
@@ -117,7 +117,7 @@ faq:
   - label: 'Am I flexible with other technologies?'
     content: 'Absolutely, if your project requires other technologies like React.js or Angular, I can adapt.'
   - label: 'Where can I work?'
-    content: 'I am currently based in France, but I can work remotely with clients from all over the world.'
+    content: 'I am currently based in the city of Paris, France, but I can work remotely with clients from all over the world.'
   - label: 'What is my rate for a web development project?'
     content: 'The rate depends on the complexity and duration of the project. After an initial discussion to define your needs, I can provide you with a precise quote.'
 

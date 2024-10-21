@@ -1,7 +1,7 @@
 title: 'Nicolas Harter'
 description: 'Développeur Web Front-End'
 contact:
-  email: 'contact.nicolasharter@gmail.com'
+  email: 'pro.nicolasharter@gmail.com'
   availability: true
   CV: '/assets/CV_Nicolas_Harter_FR.pdf'
 hero:
@@ -117,7 +117,7 @@ faq:
   - label: "Suis-je flexible avec d'autres technologies ?"
     content: "Bien sûr, si votre projet nécessite d'autres technologies comme React.js ou Angular, je peux m'adapter."
   - label: 'Où puis-je travailler ?'
-    content: 'Je suis actuellement en France, mais je peux travailler à distance avec des clients du monde entier.'
+    content: 'Je réside actuellement dans la ville de Paris, en France, mais je suis capable de travailler à distance avec des clients du monde entier.'
   - label: 'Quel est mon tarif pour un projet de développement web ?'
     content: 'Le tarif dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrai vous fournir un devis précis.'
 
