@@ -6,7 +6,7 @@ contact:
   CV: '/assets/CV_Nicolas_Harter_EN.pdf'
 hero:
   title: 'Nicolas Harter'
-  description: 'Front-End Web Developer, specializing in Vue.js and Nuxt'
+  description: 'Full-Stack Web Developer, specializing in Vue.js/Nuxt and AdonisJs'
   img: '/assets/me.jpg'
 
 technologies:
@@ -101,7 +101,7 @@ experiences:
       contractType: 'Internship'
       year: '2022'
       period: 'From January 2022 to April 2022'
-      description: 'Development and production of PHP/JQuery/Oracle applications.<br>Documentation writing.'
+      description: "Development of a notification application for clients in the event of a change in their bank advisor.<br><br>Use of an internal PHP framework for development, demonstrating a reverse engineering capability."
       img:
         url: 'https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg'
         alt: "Caisse d'Epargne Grand Est Europe Logo"

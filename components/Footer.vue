@@ -6,7 +6,7 @@
     <template #center>
       <p class="font-medium">
         Made by me with
-        <UIcon name="i-heroicons-heart" />
+        <ULink to="https://ui.nuxt.com/" class="text-primary">Nuxt UI pro</ULink>
       </p>
     </template>
     <template #right>
@@ -14,7 +14,7 @@
         icon="i-simple-icons-x"
         color="gray"
         variant="ghost"
-        to="https://x.com/nicohrte/"
+        to="https://x.com/nicolasharter_"
         target="_blank"
       />
       <UButton
