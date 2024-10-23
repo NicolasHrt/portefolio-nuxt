@@ -6,7 +6,7 @@ contact:
   CV: '/assets/CV_Nicolas_Harter_EN.pdf'
 hero:
   title: 'Nicolas Harter'
-  description: 'Full-Stack Web Developer, specializing in Vue.js/Nuxt and AdonisJs'
+  description: 'Full Stack Web Developer, specializing in Vue.js/Nuxt and AdonisJs'
   img: '/assets/me.jpg'
 
 technologies:
