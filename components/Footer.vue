@@ -11,7 +11,7 @@
     </template>
     <template #right>
       <UButton icon="i-simple-icons-linkedin" color="gray" variant="ghost"
-        to="https://www.linkedin.com/in/nicolas-harter" target="_blank" />
+        to="https://www.linkedin.com/in/nicolasharter" target="_blank" />
       <UButton icon="i-simple-icons-github" color="gray" variant="ghost" to="https://github.com/NicolasHrt"
         target="_blank" />
     </template>
