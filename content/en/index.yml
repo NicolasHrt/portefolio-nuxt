@@ -6,89 +6,110 @@ contact:
   CV: '/assets/CV_Nicolas_Harter_EN.pdf'
 hero:
   title: 'Nicolas Harter'
-  description: 'Full Stack Web Developer, specializing in Vue.js/Nuxt and AdonisJs'
+  description: 'Vue.js & Angular Front-End Developer based in Paris, France'
   img: '/assets/me.jpg'
 
 technologies:
   title: 'My Skills'
   list:
-    - name: 'AdonisJs'
-      icon: 'logos:adonisjs-icon'
-    - name: 'Nuxt'
-      icon: 'i-logos-nuxt-icon'
+
     - name: 'Vue.js'
       icon: 'i-devicon-vuejs'
+    - name: 'Nuxt'
+      icon: 'i-logos-nuxt-icon'
+    - name: 'Angular'
+      icon: 'i-logos-angular-icon'
     - name: 'Typescript'
       icon: 'i-devicon-typescript'
     - name: 'Tailwind CSS'
       icon: 'i-devicon-tailwindcss'
 
 offers:
-  title: 'Need help with?'
+  title: 'What do you need?'
   list:
-    - title: 'Front-End Development'
-      description: 'I am capable of creating and maintaining modern and responsive web interfaces using Vue.js/Nuxt and Tailwind CSS frameworks.'
-      icon: 'i-heroicons-computer-desktop'
+    - title: 'Angular Applications'
+      description: 'Development of robust and scalable web applications with Angular, using best practices (Signals, Services, Pipes, Directives).'
+      icon: 'simple-icons:angular'
       class: 'row-span-2 col-span-6'
-    - title: 'User Experience Optimization (UX)'
-      description: 'I can improve the user experience of your website or web application by identifying areas for improvement and proposing solutions for a more intuitive and enjoyable navigation.'
-      icon: 'material-symbols:design-services-outline'
+    - title: 'Vue.js / Nuxt Applications'
+      description: "Creation of modern and high-performance interfaces with Vue.js and Nuxt, using best practices (Composition API, Pinia Stores, Composables...)."
+      icon: 'fa7-brands:vuejs'
       class: 'row-span-4 col-span-6'
-    - title: 'Showcase Website'
-      description: 'I am capable of creating showcase websites for your business using CMS like WordPress to allow you to edit the content.'
+    - title: 'WordPress Sites'
+      description: "Creation, customization and optimization of WordPress sites focused on performance and SEO to improve your online visibility and facilitate content management."
       icon: 'ic:baseline-wordpress'
       class: 'row-span-4 col-span-6'
-    - title: 'Full-Stack Web Application'
-      description: 'I can handle the development of a Full-Stack web application with Nuxt/AdonisJs.'
+    - title: 'Migration & Refactoring'
+      description: "Migration of applications to Angular or Vue.js, refactoring legacy code and improving front-end performance."
       icon: 'f7:square-stack-3d-up-fill'
       class: 'row-span-2 col-span-6'
 
 experiences:
-  title: 'My Experiences'
+  title: 'My Experience'
   list:
-    - company: 'Hoplunch'
-      job: 'Web Developer'
-      contractType: 'Apprenticeship'
-      year: 'Present'
-      period: 'From September 2023 to September 2024'
-      description: "Significant contribution to the development and improvement of Hoplunch's website using the Nuxt.js framework.<br><br> Active participation in team meetings, bringing ideas and suggestions to improve the site's UI/UX.<br><br>Added back-office functionality with the Php Symfony framework.<br><br> Developed end-to-end tests with Playwright to guarantee the integrity of the application at each deployment."
+    - company: 'Cyllene'
+      job: 'Front-end Developer'
+      year: "Present"
+      period: "April 2025 - Present"
+      description: "Development of the customer portal and sales funnel for Le Pèlerin (Bayard Group), as well as the complete redesign of INNELEC's e-commerce website."
+      img:
+        url: 'https://media.licdn.com/dms/image/v2/C4D0BAQEq0FbFtl4arQ/company-logo_200_200/company-logo_200_200/0/1630461578609/cyllene_logo?e=1765411200&v=beta&t=E2BAsaInE0h6kYSDpJ1AF3xu_exv0ci8mWkpKAOnho0'
+        alt: 'Cyllene Logo'
+      technologies:
+        - name: 'Typescript'
+          icon: 'i-devicon-typescript'
+        - name: 'Tailwind CSS'
+          icon: 'i-devicon-tailwindcss'
+    - company: 'Lucca'
+      job: 'Angular Front-end Developer'
+      year: '2024-2025'
+      period: 'October 2024 - December 2025'
+      description: "Redesign of the international corporate website with a modern stack (Angular, TypeScript, DatoCMS) and implementation of a scalable architecture facilitating multi-market management for marketing teams."
+      img:
+        url: 'https://media.licdn.com/dms/image/v2/D4E0BAQFls7Dsx3UfeA/company-logo_200_200/company-logo_200_200/0/1686123886555/lucca_logo?e=1765411200&v=beta&t=P7KMxKZ2qIcZwEaTgXR77hIpbgeZ8UeXgDu4OfbNBgE'
+        alt: 'Lucca Logo'
+      technologies:
+        - name: 'Angular'
+          icon: 'i-logos-angular-icon'
+        - name: 'Typescript'
+          icon: 'i-devicon-typescript'
+      works:
+        - name: 'Lucca.fr'
+          url: 'https://www.lucca.fr/'
+    - company: 'HopLunch'
+      job: 'Vue.js Front-end Developer (Apprenticeship)'
+      contractType: ''
+      year: '2023-2024'
+      period: 'September 2023 - September 2024'
+      description: "Redesign of the customer interface with Vue.js/Nuxt (Composition API, Pinia) and development of reusable composables. Implementation of end-to-end tests with Playwright."
       img:
         url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMRCvTX4hN18ejxh0ZRDXhr-iYLXoxn8C1ew&s'
-        alt: 'Hoplunch Logo'
+        alt: 'HopLunch Logo'
       technologies:
         - name: 'Vue.js'
           icon: 'i-devicon-vuejs'
         - name: 'Nuxt'
           icon: 'i-logos-nuxt-icon'
-        - name: 'Tailwind CSS'
-          icon: 'i-logos-tailwindcss-icon'
-        - name: 'Symfony'
-          icon: 'i-logos-symfony'
-        - name: 'Playwright'
-          icon: 'i-logos-playwright'
+        - name: 'Typescript'
+          icon: 'i-devicon-typescript'
       works:
         - name: 'Hoplunch'
           url: 'https://hoplunch.com'
-    - company: 'Bradley : The Brand Agency'
-      job: 'Web Developer'
-      year: '2023'
-      period: 'From August 2022 to September 2024'
-      contractType: 'Freelance'
-      description: 'Created several operational WordPress sites with custom themes for well-known Irish companies like Mcorm and Natural Stockcare, as well as international companies like Indorama Ventures.<br><br> Collaborated with designers to translate their vision into responsive web interfaces for all devices.<br><br> Led the development of websites from conception to launch, demonstrating expertise in independent web development.'
+    - company: 'Bradley - The Brand Agency'
+      job: 'WordPress Front-end Developer'
+      year: '2022-2023'
+      period: 'August 2022 - September 2023'
+      description: "Creation and redesign of custom WordPress sites for various clients (MCORM, Natural Stockcare, Indorama Ventures, Soilworx). Complete project management and regular communication with English-speaking clients."
       img:
         url: 'https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo'
-        alt: 'Bradley : The Brand Agency Logo'
+        alt: 'Bradley - The Brand Agency Logo'
       technologies:
-        - name: 'Wordpress'
+        - name: 'WordPress'
           icon: 'i-bi-wordpress'
-        - name: 'Php'
+        - name: 'PHP'
           icon: 'i-devicon-php'
-        - name: 'Javascript'
-          icon: 'i-devicon-javascript'
         - name: 'Tailwind CSS'
-          icon: 'i-logos-tailwindcss-icon'
-        - name: 'Bootstrap'
-          icon: 'i-devicon-bootstrap'
+          icon: 'i-devicon-tailwindcss'
       works:
         - name: 'Mcorm.com'
           url: 'https://mcorm.com/'
@@ -96,31 +117,31 @@ experiences:
           url: 'https://naturalstockcare.com/'
         - name: 'Soilworx.ie'
           url: 'https://soilworx.ie/'
-    - company: "Caisse d'Epargne Grand Est Europe"
-      job: 'Web Developer'
-      contractType: 'Internship'
+    - company: "Caisse d'Epargne"
+      job: 'Full-stack PHP Developer (Internship)'
+      contractType: ''
       year: '2022'
-      period: 'From January 2022 to April 2022'
-      description: "Development of a notification application for clients in the event of a change in their bank advisor.<br><br>Use of an internal PHP framework for development, demonstrating a reverse engineering capability."
+      period: 'January 2022 - April 2022'
+      description: "Development of internal applications in PHP."
       img:
         url: 'https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg'
-        alt: "Caisse d'Epargne Grand Est Europe Logo"
+        alt: "Caisse d'Epargne Logo"
       technologies:
-        - name: 'Php'
+        - name: 'PHP'
           icon: 'i-devicon-php'
         - name: 'JQuery'
           icon: 'i-devicon-jquery'
 
 faq:
   - label: 'What is my educational background?'
-    content: 'I hold an engineering degree in Computer Science from CESI Strasbourg.'
-  - label: 'Am I flexible with other technologies?'
-    content: 'Absolutely, if your project requires other technologies like React.js or Angular, I can adapt.'
+    content: "I hold an Engineering Degree in Computer Science from CESI Strasbourg."
+  - label: "Am I flexible with other technologies?"
+    content: "I specialize in Angular and Vue.js, but I can also work with React.js and other modern front-end frameworks depending on your project needs."
   - label: 'Where can I work?'
-    content: 'I am currently based in the city of Paris, France, but I can work remotely with clients from all over the world.'
+    content: 'I currently reside in the city of Paris, France, but I am able to work remotely with clients from around the world.'
   - label: 'What is my rate for a web development project?'
-    content: 'The rate depends on the complexity and duration of the project. After an initial discussion to define your needs, I can provide you with a precise quote.'
+    content: 'My average daily rate (TJM) is €480. The overall rate depends on the complexity and duration of the project. After an initial discussion to define your needs, I can provide you with a precise quote.'
 
 cta:
-  title: 'Ready to start a project with me?'
-  description: "Don't hesitate to contact me to discuss your next project. I would be delighted to collaborate with you."
+  title: 'Ready to start a front-end project with me?'
+  description: "Don't hesitate to contact me to discuss your Angular or Vue.js project. I would be delighted to collaborate with you."
