@@ -6,18 +6,19 @@ contact:
   CV: '/assets/CV_Nicolas_Harter_FR.pdf'
 hero:
   title: 'Nicolas Harter'
-  description: 'Développeur Front-End Angular & Vue.js'
+  description: 'Développeur Front-End Vue.js & Angular basé à Paris, France'
   img: '/assets/me.jpg'
 
 technologies:
   title: 'Mes compétences'
   list:
-    - name: 'Angular'
-      icon: 'i-logos-angular-icon'
+
     - name: 'Vue.js'
       icon: 'i-devicon-vuejs'
     - name: 'Nuxt'
       icon: 'i-logos-nuxt-icon'
+    - name: 'Angular'
+      icon: 'i-logos-angular-icon'
     - name: 'Typescript'
       icon: 'i-devicon-typescript'
     - name: 'Tailwind CSS'
@@ -27,15 +28,15 @@ offers:
   title: 'Vous avez besoin de ?'
   list:
     - title: 'Applications Angular'
-      description: 'Développement d''applications web robustes et évolutives avec Angular, en utilisant les meilleures pratiques (RxJS, Services, Guards, Modules).'
+      description: 'Développement d''applications web robustes et évolutives avec Angular, en utilisant les meilleures pratiques (Signals, Services, Pipes, Directives).'
       icon: 'simple-icons:angular'
       class: 'row-span-2 col-span-6'
     - title: 'Applications Vue.js / Nuxt'
-      description: "Création d'interfaces modernes et performantes avec Vue.js et Nuxt, optimisées pour le SEO et l'expérience utilisateur."
+      description: "Création d'interfaces modernes et performantes avec Vue.js et Nuxt, en utilisant les meilleures pratiques (Composition API, Stores Pinia, Composables...)."
       icon: 'fa7-brands:vuejs'
       class: 'row-span-4 col-span-6'
-    - title: 'Interfaces responsives'
-      description: "Développement d'interfaces web responsives et accessibles avec Tailwind CSS, garantissant une expérience optimale sur tous les appareils."
+    - title: 'Sites WordPress'
+      description: "Création, personnalisation et optimisation de sites WordPress orientés performance et référencement naturel (SEO) pour améliorer votre visibilité sur le web et faciliter la gestion de contenu."
       icon: 'ic:baseline-wordpress'
       class: 'row-span-4 col-span-6'
     - title: 'Migration & Refactoring'
