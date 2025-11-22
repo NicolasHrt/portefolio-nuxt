@@ -133,14 +133,18 @@ experiences:
           icon: 'i-devicon-jquery'
 
 faq:
-  - label: 'Quel est mon parcours éducatif ?'
-    content: "Je suis titulaire d'un Diplôme d'ingénieur en Informatique réalisé au CESI Strasbourg."
-  - label: "Suis-je flexible avec d'autres technologies ?"
-    content: "Je me spécialise en Angular et Vue.js, mais je peux également travailler avec React.js et d'autres frameworks front-end modernes selon les besoins de votre projet."
-  - label: 'Où puis-je travailler ?'
-    content: 'Je réside actuellement dans la ville de Paris, en France, mais je suis capable de travailler à distance avec des clients du monde entier.'
-  - label: 'Quel est mon tarif pour un projet de développement web ?'
-    content: 'Mon tarif journalier moyen (TJM) est de 480€. Le tarif global dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrai vous fournir un devis précis.'
+  - label: 'Quels types de projets puis-je réaliser ?'
+    content: "Je développe des applications web modernes avec Angular et Vue.js/Nuxt, des sites WordPress optimisés pour le SEO, et j'accompagne également les migrations de code legacy vers des technologies modernes. Mon expertise couvre le développement front-end complet, de la conception à la mise en production."
+  - label: 'Quelle est ma disponibilité ?'
+    content: "Je travaille actuellement en tant que développeur front-end freelance. Je suis disponible pour des missions en régie (full-time ou temps partiel) ou pour des projets au forfait. N'hésitez pas à me contacter pour discuter de vos besoins."
+  - label: 'Où puis-je intervenir ?'
+    content: "Basé à Paris, je peux intervenir en présentiel dans la région parisienne ou en full remote partout en France et à l'international. Je suis habitué au travail à distance et dispose d'une excellente organisation pour collaborer efficacement."
+  - label: 'Quel est mon tarif journalier ?'
+    content: 'Mon tarif journalier moyen (TJM) est de 480€. Pour les projets au forfait, le tarif global dépend de la complexité et de la durée estimée. Après une première discussion pour définir précisément vos besoins, je vous fournirai un devis détaillé.'
+  - label: 'Quel est mon parcours et ma formation ?'
+    content: "Je suis diplômé d'un diplôme d'ingénieur en Informatique du CESI Strasbourg."
+  - label: "Puis-je travailler avec d'autres technologies ?"
+    content: "Bien que spécialisé en Angular et Vue.js, je maîtrise l'écosystème JavaScript moderne dans son ensemble : TypeScript, Tailwind CSS, testing (Playwright, Jest), et je peux rapidement m'adapter à d'autres frameworks comme React si le projet le nécessite."
 
 cta:
   title: 'Prêt à démarrer un projet front-end avec moi?'

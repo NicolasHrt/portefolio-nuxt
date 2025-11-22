@@ -133,14 +133,18 @@ experiences:
           icon: 'i-devicon-jquery'
 
 faq:
-  - label: 'What is my educational background?'
-    content: "I hold an Engineering Degree in Computer Science from CESI Strasbourg."
-  - label: "Am I flexible with other technologies?"
-    content: "I specialize in Angular and Vue.js, but I can also work with React.js and other modern front-end frameworks depending on your project needs."
+  - label: 'What types of projects can I work on?'
+    content: "I develop modern web applications with Angular and Vue.js/Nuxt, SEO-optimized WordPress sites, and support migrations from legacy code to modern technologies. My expertise covers complete front-end development, from design to production deployment."
+  - label: 'What is my availability?'
+    content: "I currently work as a freelance front-end developer. I am available for full-time or part-time contract positions, as well as fixed-price projects. Feel free to contact me to discuss your needs."
   - label: 'Where can I work?'
-    content: 'I currently reside in the city of Paris, France, but I am able to work remotely with clients from around the world.'
-  - label: 'What is my rate for a web development project?'
-    content: 'My average daily rate (TJM) is €480. The overall rate depends on the complexity and duration of the project. After an initial discussion to define your needs, I can provide you with a precise quote.'
+    content: "Based in Paris, I can work on-site in the Paris region or fully remote anywhere in France and internationally. I am experienced in remote work and have excellent organizational skills for effective collaboration."
+  - label: 'What is my daily rate?'
+    content: "My average daily rate is €480. For fixed-price projects, the overall cost depends on the complexity and estimated duration. After an initial discussion to precisely define your needs, I will provide you with a detailed quote."
+  - label: 'What is my background and education?'
+    content: "I hold an Engineering Degree in Computer Science from CESI Strasbourg."
+  - label: "Can I work with other technologies?"
+    content: "While specialized in Angular and Vue.js, I master the modern JavaScript ecosystem as a whole: TypeScript, Tailwind CSS, testing (Playwright, Jest), and I can quickly adapt to other frameworks like React if the project requires it."
 
 cta:
   title: 'Ready to start a front-end project with me?'
