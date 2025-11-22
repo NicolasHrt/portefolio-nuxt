@@ -21,6 +21,35 @@ useSeoMeta({
   description: page.value?.description,
   ogDescription: page.value?.description,
 });
+
+// Timeline animation
+const timelineHeight = ref(0);
+const experiencesSection = ref(null);
+
+onMounted(() => {
+  const updateTimeline = () => {
+    if (!experiencesSection.value) return;
+
+    const section = experiencesSection.value as HTMLElement;
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.offsetHeight;
+    const scrollPosition = window.scrollY + window.innerHeight;
+
+    // Calculate how much of the section is visible
+    const scrolledPastTop = Math.max(0, scrollPosition - sectionTop - 200);
+    const totalHeight = sectionHeight - 200;
+    const percentage = Math.min(100, (scrolledPastTop / totalHeight) * 100);
+
+    timelineHeight.value = percentage;
+  };
+
+  window.addEventListener('scroll', updateTimeline);
+  updateTimeline(); // Initial calculation
+
+  onBeforeUnmount(() => {
+    window.removeEventListener('scroll', updateTimeline);
+  });
+});
 </script>
 
 <template>
@@ -76,11 +105,17 @@ useSeoMeta({
         </ULandingGrid>
       </div>
 
-      <div class="relative mb-20" id="experiences">
+      <div ref="experiencesSection" class="relative mb-20" id="experiences">
         <h2 class="mb-20 text-center text-4xl font-bold">
           {{ page.experiences.title }}
         </h2>
-        <div class="absolute right-1/2 top-20 h-[calc(100%-6rem)] w-1 translate-x-1/2 rounded-2xl bg-gray-200"></div>
+        <!-- Background timeline (gray) -->
+        <div class="absolute right-1/2 top-20 h-[calc(100%-6rem)] w-1 translate-x-1/2 rounded-2xl bg-gray-200 dark:bg-gray-800"></div>
+        <!-- Animated timeline (primary color) -->
+        <div
+          class="absolute right-1/2 top-20 w-1 translate-x-1/2 rounded-2xl bg-primary transition-all duration-300 ease-out"
+          :style="{ height: `${timelineHeight}%`, maxHeight: 'calc(100% - 6rem)' }"
+        ></div>
         <div class="relative max-w-2xl" :class="[index % 2 === 0 ? '' : 'ml-auto']"
           v-for="(experience, index) in page.experiences.list">
           <p class="mb-20 text-3xl font-bold" :class="[
