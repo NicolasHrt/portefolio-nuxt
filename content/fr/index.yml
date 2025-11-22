@@ -47,49 +47,69 @@ offers:
 experiences:
   title: 'Mes expériences'
   list:
-    - company: 'Hoplunch'
-      job: 'Développeur Web'
-      contractType: 'Alternance'
+    - company: 'Cyllene'
+      job: 'Développeur Front-end'
       year: "Aujourd'hui"
-      period: 'De septembre 2023 à septembre 2024'
-      description: "Développement front-end avec Vue.js et Nuxt.js pour créer des interfaces utilisateur modernes et performantes.<br><br> Conception et implémentation de composants réutilisables en suivant les principes de composition et de réactivité de Vue.js.<br><br> Optimisation de l'UI/UX en collaboration avec l'équipe design.<br><br> Développement de tests end-to-end avec Playwright pour assurer la qualité du code front-end."
+      period: "Avril 2025 - Aujourd'hui"
+      description: "Réalisation de l'espace client et du parcours de vente pour Le Pèlerin (groupe Bayard), ainsi que la refonte complète du site e-commerce d'INNELEC."
+      img:
+        url: 'https://media.licdn.com/dms/image/v2/C4D0BAQEq0FbFtl4arQ/company-logo_200_200/company-logo_200_200/0/1630461578609/cyllene_logo?e=1765411200&v=beta&t=E2BAsaInE0h6kYSDpJ1AF3xu_exv0ci8mWkpKAOnho0'
+        alt: 'Logo de Cyllene'
+      technologies:
+        - name: 'Typescript'
+          icon: 'i-devicon-typescript'
+        - name: 'Tailwind CSS'
+          icon: 'i-devicon-tailwindcss'
+    - company: 'Lucca'
+      job: 'Développeur Front-end Angular'
+      year: '2024-2025'
+      period: 'Octobre 2024 - Décembre 2025'
+      description: "Refonte du site corporate international avec une stack moderne (Angular, TypeScript, DatoCMS) et mise en place d'une architecture scalable facilitant la gestion multi-marchés pour les équipes marketing."
+      img:
+        url: 'https://media.licdn.com/dms/image/v2/D4E0BAQFls7Dsx3UfeA/company-logo_200_200/company-logo_200_200/0/1686123886555/lucca_logo?e=1765411200&v=beta&t=P7KMxKZ2qIcZwEaTgXR77hIpbgeZ8UeXgDu4OfbNBgE'
+        alt: 'Logo de Lucca'
+      technologies:
+        - name: 'Angular'
+          icon: 'i-logos-angular-icon'
+        - name: 'Typescript'
+          icon: 'i-devicon-typescript'
+      works:
+        - name: 'Lucca.fr'
+          url: 'https://www.lucca.fr/'
+    - company: 'HopLunch'
+      job: 'Développeur Front-end Vue.js (Alternance)'
+      contractType: ''
+      year: '2023-2024'
+      period: 'Septembre 2023 - Septembre 2024'
+      description: "Refonte de l'interface client avec Vue.js/Nuxt (Composition API, Pinia) et développement de composables réutilisables. Mise en place de tests end-to-end avec Playwright."
       img:
         url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMRCvTX4hN18ejxh0ZRDXhr-iYLXoxn8C1ew&s'
-        alt: 'Logo de Hoplunch'
+        alt: 'Logo de HopLunch'
       technologies:
         - name: 'Vue.js'
           icon: 'i-devicon-vuejs'
         - name: 'Nuxt'
           icon: 'i-logos-nuxt-icon'
-        - name: 'Tailwind CSS'
-          icon: 'i-logos-tailwindcss-icon'
-        - name: 'Symfony'
-          icon: 'i-logos-symfony'
-        - name: 'Playwright'
-          icon: 'i-logos-playwright'
+        - name: 'Typescript'
+          icon: 'i-devicon-typescript'
       works:
         - name: 'Hoplunch'
           url: 'https://hoplunch.com'
-    - company: 'Bradley : The Brand Agency'
-      job: 'Développeur Web'
-      year: '2023'
-      period: "D'août 2022 à septembre 2024"
-      contractType: 'Freelance'
-      description: "Développement front-end de sites web personnalisés pour des entreprises irlandaises et internationales (Mcorm, Natural Stockcare, Indorama Ventures).<br><br> Intégration d'interfaces web responsives avec HTML/CSS/JavaScript et frameworks modernes (Tailwind CSS, Bootstrap).<br><br> Collaboration étroite avec les designers pour transformer des maquettes en interfaces web pixel-perfect et accessibles sur tous les appareils."
+    - company: 'Bradley - The Brand Agency'
+      job: 'Développeur Front-end WordPress'
+      year: '2022-2023'
+      period: 'Août 2022 - Septembre 2023'
+      description: "Création et refonte de sites WordPress sur mesure pour divers clients (MCORM, Natural Stockcare, Indorama Ventures, Soilworx). Gestion complète des projets et échanges réguliers avec des clients anglophones."
       img:
         url: 'https://media.licdn.com/dms/image/C4E0BAQEHT5nDyjyJKQ/company-logo_200_200/0/1630630531607/bradleythebrandagency_logo?e=2147483647&v=beta&t=C-3smmKgbtxrLDvLU2UfIVykmJNz4gBzOhkVzMy4kBo'
-        alt: 'Logo de Bradley : The Brand Agency'
+        alt: 'Logo de Bradley - The Brand Agency'
       technologies:
         - name: 'WordPress'
           icon: 'i-bi-wordpress'
         - name: 'PHP'
           icon: 'i-devicon-php'
-        - name: 'Javascript'
-          icon: 'i-devicon-javascript'
         - name: 'Tailwind CSS'
-          icon: 'i-logos-tailwindcss-icon'
-        - name: 'Bootstrap'
-          icon: 'i-devicon-bootstrap'
+          icon: 'i-devicon-tailwindcss'
       works:
         - name: 'Mcorm.com'
           url: 'https://mcorm.com/'
@@ -97,15 +117,15 @@ experiences:
           url: 'https://naturalstockcare.com/'
         - name: 'Soilworx.ie'
           url: 'https://soilworx.ie/'
-    - company: "Caisse d'Epargne Grand Est Europe"
-      job: 'Développeur Web'
-      contractType: 'Stage'
+    - company: "Caisse d'Epargne"
+      job: 'Développeur Full-stack PHP (Stage)'
+      contractType: ''
       year: '2022'
-      period: 'De janvier 2022 à avril 2022'
-      description: "Développement front-end d'une application web de notification pour les clients bancaires.<br><br>Création d'interfaces utilisateur interactives avec JavaScript/jQuery et intégration avec des APIs back-end.<br><br>Adaptation rapide à un framework propriétaire interne."
+      period: 'Janvier 2022 - Avril 2022'
+      description: "Développement d'applications internes en PHP."
       img:
         url: 'https://pbs.twimg.com/profile_images/1719989559272857600/3DO4qKF-_400x400.jpg'
-        alt: "Logo de la Caisse d'Epargne Grand Est Europe"
+        alt: "Logo de la Caisse d'Epargne"
       technologies:
         - name: 'PHP'
           icon: 'i-devicon-php'
@@ -120,7 +140,7 @@ faq:
   - label: 'Où puis-je travailler ?'
     content: 'Je réside actuellement dans la ville de Paris, en France, mais je suis capable de travailler à distance avec des clients du monde entier.'
   - label: 'Quel est mon tarif pour un projet de développement web ?'
-    content: 'Le tarif dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrai vous fournir un devis précis.'
+    content: 'Mon tarif journalier moyen (TJM) est de 480€. Le tarif global dépend de la complexité et de la durée du projet. Après une première discussion pour définir vos besoins, je pourrai vous fournir un devis précis.'
 
 cta:
   title: 'Prêt à démarrer un projet front-end avec moi?'
