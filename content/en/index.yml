@@ -51,7 +51,7 @@ experiences:
       job: 'Angular Front-end Developer'
       year: "Present"
       period: "October 2024 - Present"
-      description: "Redesign of the international corporate website with a modern stack (Angular, TypeScript, DatoCMS) and implementation of a scalable architecture facilitating multi-market management for marketing teams."
+      description: "At Lucca, an HR and administrative software publisher: redesign of the international corporate website with a modern stack (Angular, TypeScript, DatoCMS) and implementation of a scalable architecture facilitating multi-market management for marketing teams."
       img:
         url: 'https://media.licdn.com/dms/image/v2/D4E0BAQFls7Dsx3UfeA/company-logo_200_200/company-logo_200_200/0/1686123886555/lucca_logo?e=1765411200&v=beta&t=P7KMxKZ2qIcZwEaTgXR77hIpbgeZ8UeXgDu4OfbNBgE'
         alt: 'Lucca Logo'
@@ -60,6 +60,8 @@ experiences:
           icon: 'i-logos-angular-icon'
         - name: 'Typescript'
           icon: 'i-devicon-typescript'
+        - name: 'Tailwind CSS'
+          icon: 'i-devicon-tailwindcss'
       works:
         - name: 'Lucca.fr'
           url: 'https://www.lucca.fr/'
@@ -118,13 +120,16 @@ experiences:
       technologies:
         - name: 'WordPress'
           icon: 'i-bi-wordpress'
+      works:
+        - name: 'Groupe Cyllene'
+          url: 'https://www.groupe-cyllene.com/'
     - company: 'Meet Sponsors'
       job: 'Full Stack Developer'
       year: '2024'
       period: 'November 2024 - December 2024'
       description: "Collaboration with YouTuber Benjamin Code on his SaaS meetsponsors.com. Added front-end and back-end features with Nuxt/Adonis. Integration of password authentication system. Implementation of an email notification system to inform users when YouTubers or Sponsors match predefined filters."
       img:
-        url: 'https://pbs.twimg.com/profile_images/1869384293813575680/LYMwdxcA_400x400.jpg'
+        url: 'https://media.licdn.com/dms/image/v2/D4D0BAQEqD6IUyRfoWw/company-logo_200_200/company-logo_200_200/0/1732902326854?e=1765411200&v=beta&t=JvCA_Ofd9Jmx6Jve3BE8ONSUZEDdaidjmDkd5EOaYRs'
         alt: 'Meet Sponsors Logo'
       technologies:
         - name: 'Vue.js'
@@ -198,11 +203,11 @@ faq:
   - label: 'Where can I work?'
     content: "Based in Paris, I can work on-site in the Paris region or fully remote anywhere in France and internationally. I am experienced in remote work and have excellent organizational skills for effective collaboration."
   - label: 'What is my daily rate?'
-    content: "My average daily rate is €480. For fixed-price projects, the overall cost depends on the complexity and estimated duration. After an initial discussion to precisely define your needs, I will provide you with a detailed quote."
+    content: "My average daily rate is €450. For fixed-price projects, the overall cost depends on the complexity and estimated duration. After an initial discussion to precisely define your needs, I will provide you with a detailed quote."
   - label: 'What is my background and education?'
     content: "I hold an Engineering Degree in Computer Science from CESI Strasbourg."
   - label: "Can I work with other technologies?"
-    content: "While specialized in Angular and Vue.js, I master the modern JavaScript ecosystem as a whole: TypeScript, Tailwind CSS, testing (Playwright, Jest), and I can quickly adapt to other frameworks like React if the project requires it."
+    content: "While specialized in Angular and Vue.js, I master the modern JavaScript ecosystem as a whole: TypeScript, Tailwind CSS, testing (Playwright, Vitest), and I can quickly adapt to other frameworks like React if the project requires it."
 
 cta:
   title: 'Ready to start a front-end project with me?'

@@ -51,7 +51,7 @@ experiences:
       job: 'Développeur Front-end Angular'
       year: "Aujourd'hui"
       period: "Octobre 2024 - Aujourd'hui"
-      description: "Refonte du site corporate international avec une stack moderne (Angular, TypeScript, DatoCMS) et mise en place d'une architecture scalable facilitant la gestion multi-marchés pour les équipes marketing."
+      description: "Chez Lucca, éditeur de logiciels RH et administratifs : refonte du site corporate international avec une stack moderne (Angular, TypeScript, DatoCMS) et mise en place d'une architecture scalable facilitant la gestion multi-marchés pour les équipes marketing."
       img:
         url: 'https://media.licdn.com/dms/image/v2/D4E0BAQFls7Dsx3UfeA/company-logo_200_200/company-logo_200_200/0/1686123886555/lucca_logo?e=1765411200&v=beta&t=P7KMxKZ2qIcZwEaTgXR77hIpbgeZ8UeXgDu4OfbNBgE'
         alt: 'Logo de Lucca'
@@ -60,6 +60,8 @@ experiences:
           icon: 'i-logos-angular-icon'
         - name: 'Typescript'
           icon: 'i-devicon-typescript'
+        - name: 'Tailwind CSS'
+          icon: 'i-devicon-tailwindcss'
       works:
         - name: 'Lucca.fr'
           url: 'https://www.lucca.fr/'
@@ -118,13 +120,16 @@ experiences:
       technologies:
         - name: 'WordPress'
           icon: 'i-bi-wordpress'
+      works:
+        - name: 'Groupe Cyllene'
+          url: 'https://www.groupe-cyllene.com/'
     - company: 'Meet Sponsors'
       job: 'Développeur Full Stack'
       year: '2024'
       period: 'Novembre 2024 - Décembre 2024'
       description: "Collaboration avec le YouTuber Benjamin Code pour travailler sur son SaaS meetsponsors.com. Ajout de fonctionnalités front-end et back-end avec Nuxt/Adonis. Intégration du système d'authentification par mot de passe. Mise en place d'un système de notifications par e-mail pour informer les utilisateurs lorsque des YouTubers ou des Sponsors répondent à un ensemble de filtres prédéfinis."
       img:
-        url: 'https://pbs.twimg.com/profile_images/1869384293813575680/LYMwdxcA_400x400.jpg'
+        url: 'https://media.licdn.com/dms/image/v2/D4D0BAQEqD6IUyRfoWw/company-logo_200_200/company-logo_200_200/0/1732902326854?e=1765411200&v=beta&t=JvCA_Ofd9Jmx6Jve3BE8ONSUZEDdaidjmDkd5EOaYRs'
         alt: 'Logo de Meet Sponsors'
       technologies:
         - name: 'Vue.js'
@@ -198,11 +203,11 @@ faq:
   - label: 'Où puis-je intervenir ?'
     content: "Basé à Paris, je peux intervenir en présentiel dans la région parisienne ou en full remote partout en France et à l'international. Je suis habitué au travail à distance et dispose d'une excellente organisation pour collaborer efficacement."
   - label: 'Quel est mon tarif journalier ?'
-    content: 'Mon tarif journalier moyen (TJM) est de 480€. Pour les projets au forfait, le tarif global dépend de la complexité et de la durée estimée. Après une première discussion pour définir précisément vos besoins, je vous fournirai un devis détaillé.'
+    content: 'Mon tarif journalier moyen (TJM) est de 450€. Pour les projets au forfait, le tarif global dépend de la complexité et de la durée estimée. Après une première discussion pour définir précisément vos besoins, je vous fournirai un devis détaillé.'
   - label: 'Quel est mon parcours et ma formation ?'
     content: "Je suis diplômé d'un diplôme d'ingénieur en Informatique du CESI Strasbourg."
   - label: "Puis-je travailler avec d'autres technologies ?"
-    content: "Bien que spécialisé en Angular et Vue.js, je maîtrise l'écosystème JavaScript moderne dans son ensemble : TypeScript, Tailwind CSS, testing (Playwright, Jest), et je peux rapidement m'adapter à d'autres frameworks comme React si le projet le nécessite."
+    content: "Bien que spécialisé en Angular et Vue.js, je maîtrise l'écosystème JavaScript moderne dans son ensemble : TypeScript, Tailwind CSS, testing (Playwright, Vitest), et je peux rapidement m'adapter à d'autres frameworks comme React si le projet le nécessite."
 
 cta:
   title: 'Prêt à démarrer un projet front-end avec moi?'

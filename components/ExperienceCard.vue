@@ -8,7 +8,7 @@ defineProps({
   <div class="rounded-xl border-2 border-gray-200 bg-white p-4 shadow-xl dark:border-gray-800 dark:bg-gray-900">
     <div class="items-start gap-4 sm:flex">
       <div v-if="experience.img" class="aspect-square max-w-20 flex-shrink-0 max-sm:mb-2">
-        <img class="h-full w-full rounded-xl object-cover" :src="experience.img.url" :alt="experience.img.alt" />
+        <img class="h-full w-full rounded-md object-cover" :src="experience.img.url" :alt="experience.img.alt" />
       </div>
       <div>
         <div class="mb-4">
