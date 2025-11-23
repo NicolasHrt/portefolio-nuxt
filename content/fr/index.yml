@@ -47,23 +47,10 @@ offers:
 experiences:
   title: 'Mes expériences'
   list:
-    - company: 'Cyllene'
-      job: 'Développeur Front-end'
-      year: "Aujourd'hui"
-      period: "Avril 2025 - Aujourd'hui"
-      description: "Réalisation de l'espace client et du parcours de vente pour Le Pèlerin (groupe Bayard), ainsi que la refonte complète du site e-commerce d'INNELEC."
-      img:
-        url: 'https://media.licdn.com/dms/image/v2/C4D0BAQEq0FbFtl4arQ/company-logo_200_200/company-logo_200_200/0/1630461578609/cyllene_logo?e=1765411200&v=beta&t=E2BAsaInE0h6kYSDpJ1AF3xu_exv0ci8mWkpKAOnho0'
-        alt: 'Logo de Cyllene'
-      technologies:
-        - name: 'Typescript'
-          icon: 'i-devicon-typescript'
-        - name: 'Tailwind CSS'
-          icon: 'i-devicon-tailwindcss'
     - company: 'Lucca'
       job: 'Développeur Front-end Angular'
-      year: '2024-2025'
-      period: 'Octobre 2024 - Décembre 2025'
+      year: "Aujourd'hui"
+      period: "Octobre 2024 - Aujourd'hui"
       description: "Refonte du site corporate international avec une stack moderne (Angular, TypeScript, DatoCMS) et mise en place d'une architecture scalable facilitant la gestion multi-marchés pour les équipes marketing."
       img:
         url: 'https://media.licdn.com/dms/image/v2/D4E0BAQFls7Dsx3UfeA/company-logo_200_200/company-logo_200_200/0/1686123886555/lucca_logo?e=1765411200&v=beta&t=P7KMxKZ2qIcZwEaTgXR77hIpbgeZ8UeXgDu4OfbNBgE'
@@ -76,6 +63,77 @@ experiences:
       works:
         - name: 'Lucca.fr'
           url: 'https://www.lucca.fr/'
+    - company: 'Innelec Multimédia'
+      job: 'Développeur Front-end'
+      year: '2025'
+      period: 'Septembre 2025 - Novembre 2025'
+      description: "Refonte complète du site e-commerce d'INNELEC, grossiste leader dans la distribution de jeux vidéo et produits dérivés (front-end, performance, UX)."
+      img:
+        url: 'https://media.licdn.com/dms/image/v2/C510BAQHDvOGsz32HUQ/company-logo_200_200/company-logo_200_200/0/1631322624973?e=1765411200&v=beta&t=hBz2NmT3dar9C7gXbgC-V1RCMANydszqgAgRGyBJoEU'
+        alt: 'Logo de Innelec Multimédia'
+      technologies:
+        - name: 'JavaScript'
+          icon: 'i-devicon-javascript'
+        - name: 'Symfony'
+          icon: 'mdi:symfony'
+        - name: 'Tailwind CSS'
+          icon: 'i-devicon-tailwindcss'
+    - company: 'Bayard'
+      job: 'Développeur Front-end'
+      year: ''
+      period: 'Juillet 2025 - Septembre 2025'
+      description: "Refonte et développement de l'espace client et du parcours de vente pour Le Pèlerin, magazine et site e-commerce du groupe Bayard."
+      img:
+        url: 'https://media.licdn.com/dms/image/v2/C510BAQEeNiorfk4rOg/company-logo_200_200/company-logo_200_200/0/1630623162063/bayard_presse_logo?e=1765411200&v=beta&t=MslItGhUjBP85Z8Oh65c7-mVQv8Cxvb2aXM6blewDJg'
+        alt: 'Logo de Bayard'
+      technologies:
+        - name: 'JavaScript'
+          icon: 'i-devicon-javascript'
+        - name: 'Symfony'
+          icon: 'mdi:symfony'
+    - company: 'Klap'
+      job: 'Développeur Front-end'
+      year: ''
+      period: 'Avril 2025 - Juillet 2025'
+      description: "Développement de nouvelles fonctionnalités front-end avec NextJs. Implémentation de fonctionnalités comme CMD + F dans la transcription vidéo, permettant de rechercher un mot et de naviguer instantanément vers sa position. Intégration du CMS Payload pour la rédaction d'articles SEO."
+      img:
+        url: 'https://media.licdn.com/dms/image/v2/D4E0BAQHPmSga6p8YFA/company-logo_200_200/company-logo_200_200/0/1701272828758?e=1765411200&v=beta&t=EZ0nXttbIjLgVTF27gFCfMQXb9NdK4LAVatAxShiG1Y'
+        alt: 'Logo de Klap'
+      technologies:
+        - name: 'React.js'
+          icon: 'i-devicon-react'
+        - name: 'Next.js'
+          icon: 'i-logos-nextjs-icon'
+      works:
+        - name: 'Klap.app'
+          url: 'https://klap.app/'
+    - company: 'Cyllene'
+      job: 'Développeur Front-end'
+      year: ''
+      period: "Avril 2025 - Juin 2025"
+      description: "Amélioration de l'UX et du responsive sur le site du groupe Cyllene, et création d'un quiz interactif pour augmenter l'engagement des clients."
+      img:
+        url: 'https://media.licdn.com/dms/image/v2/C4D0BAQEq0FbFtl4arQ/company-logo_200_200/company-logo_200_200/0/1630461578609/cyllene_logo?e=1765411200&v=beta&t=E2BAsaInE0h6kYSDpJ1AF3xu_exv0ci8mWkpKAOnho0'
+        alt: 'Logo de Cyllene'
+      technologies:
+        - name: 'WordPress'
+          icon: 'i-bi-wordpress'
+    - company: 'Meet Sponsors'
+      job: 'Développeur Full Stack'
+      year: '2024'
+      period: 'Novembre 2024 - Décembre 2024'
+      description: "Collaboration avec le YouTuber Benjamin Code pour travailler sur son SaaS meetsponsors.com. Ajout de fonctionnalités front-end et back-end avec Nuxt/Adonis. Intégration du système d'authentification par mot de passe. Mise en place d'un système de notifications par e-mail pour informer les utilisateurs lorsque des YouTubers ou des Sponsors répondent à un ensemble de filtres prédéfinis."
+      img:
+        url: 'https://pbs.twimg.com/profile_images/1869384293813575680/LYMwdxcA_400x400.jpg'
+        alt: 'Logo de Meet Sponsors'
+      technologies:
+        - name: 'Vue.js'
+          icon: 'i-devicon-vuejs'
+        - name: 'AdonisJs'
+          icon: 'i-devicon-adonisjs'
+      works:
+        - name: 'MeetSponsors'
+          url: 'https://meetsponsors.com/'
     - company: 'HopLunch'
       job: 'Développeur Front-end Vue.js (Alternance)'
       contractType: ''

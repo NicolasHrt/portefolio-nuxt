@@ -118,7 +118,7 @@ onMounted(() => {
         ></div>
         <div class="relative max-w-2xl" :class="[index % 2 === 0 ? '' : 'ml-auto']"
           v-for="(experience, index) in page.experiences.list">
-          <p class="mb-20 text-3xl font-bold" :class="[
+          <p v-if="experience.year" class="mb-20 text-3xl font-bold" :class="[
             index % 2 === 0 ? 'sm:mr-28 sm:text-right' : 'sm:ml-28',
             index === 0 ? 'text-primary' : '',
           ]">
