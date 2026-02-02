@@ -15,6 +15,7 @@ export default defineI18nConfig(() => ({
       check_work: 'Check my work',
       check_works: 'Check my works',
       newsletter: 'Newsletter',
+      newsletter_title: 'Stay in the loop',
       newsletter_description:
         'Subscribe to my newsletter to stay updated on my latest projects and articles.',
       newsletter_placeholder: 'Your email address',
@@ -22,6 +23,7 @@ export default defineI18nConfig(() => ({
       newsletter_success: 'You have been successfully subscribed!',
       newsletter_already: 'This email is already subscribed.',
       newsletter_error: 'An error occurred. Please try again.',
+      newsletter_privacy: 'No spam, unsubscribe at any time.',
     },
     fr: {
       french: 'Français',
@@ -36,6 +38,7 @@ export default defineI18nConfig(() => ({
       check_work: 'Voir mon travail',
       check_works: 'Voir mes travaux',
       newsletter: 'Newsletter',
+      newsletter_title: 'Restez informé',
       newsletter_description:
         'Abonnez-vous à ma newsletter pour rester informé de mes derniers projets et articles.',
       newsletter_placeholder: 'Votre adresse email',
@@ -43,6 +46,7 @@ export default defineI18nConfig(() => ({
       newsletter_success: 'Vous êtes inscrit avec succès !',
       newsletter_already: 'Cet email est déjà inscrit.',
       newsletter_error: 'Une erreur est survenue. Veuillez réessayer.',
+      newsletter_privacy: 'Pas de spam, désinscription possible à tout moment.',
     },
   },
 }));
