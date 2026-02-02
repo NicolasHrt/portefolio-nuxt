@@ -4,10 +4,6 @@
   <UFooter>
     <template #left> Copyright © {{ new Date().getFullYear() }} </template>
     <template #center>
-      <p class="font-medium">
-        Made by me with
-        <ULink to="https://ui.nuxt.com/" class="text-primary">Nuxt UI pro</ULink>
-      </p>
     </template>
     <template #right>
       <UButton icon="i-simple-icons-linkedin" color="gray" variant="ghost"

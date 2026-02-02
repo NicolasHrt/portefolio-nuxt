@@ -14,9 +14,10 @@ datasource db {
 }
 
 model Subscriber {
-  id        Int      @id @default(autoincrement())
-  email     String   @unique
-  createdAt DateTime @default(now()) @map("created_at")
+  id           Int      @id @default(autoincrement())
+  email        String   @unique
+  unsubscribed Boolean  @default(false)
+  createdAt    DateTime @default(now()) @map("created_at")
 
   @@map("subscribers")
 }
