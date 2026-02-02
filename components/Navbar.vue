@@ -9,6 +9,12 @@ const localePath = useLocalePath();
     </template>
     <template #right>
       <UButton
+        :to="localePath('/newsletter')"
+        :label="$t('newsletter')"
+        color="gray"
+        variant="ghost"
+      />
+      <UButton
         to="https://github.com/NicolasHrt"
         target="_blank"
         icon="i-simple-icons-github"
