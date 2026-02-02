@@ -88,7 +88,7 @@ const salaryData = {
   labels: ['Net salarié', 'Cotisations retraite', 'Cotisations santé/chômage', 'Charges patronales autres'],
   datasets: [
     {
-      data: [2000, 900, 550, 550],
+      data: [2900, 940, 640, 920],
       backgroundColor: ['#22c55e', '#ef4444', '#f97316', '#64748b'],
       borderWidth: 0,
       hoverOffset: 8,
@@ -176,7 +176,7 @@ const growthOptions = computed(() => ({
     y: {
       ticks: {
         color: fontColor.value,
-        callback: (v: number) => (v / 1000).toLocaleString('fr-FR') + ' k€',
+        callback: (v: string | number) => (Number(v) / 1000).toLocaleString('fr-FR') + ' k€',
       },
       grid: { color: gridColor.value },
     },
@@ -184,23 +184,6 @@ const growthOptions = computed(() => ({
 }));
 
 // ---------- 4. Final comparison bar chart ----------
-const comparisonData = {
-  labels: ['Capital accumulé', 'Rente mensuelle estimée'],
-  datasets: [
-    {
-      label: 'Salarié',
-      data: [0, 1700],
-      backgroundColor: '#ef4444',
-      borderRadius: 8,
-    },
-    {
-      label: 'Freelance',
-      data: [1500000, 5000],
-      backgroundColor: '#22c55e',
-      borderRadius: 8,
-    },
-  ],
-};
 const comparisonCapitalData = {
   labels: ['Salarié', 'Freelance'],
   datasets: [
@@ -229,7 +212,7 @@ const comparisonCapitalOptions = computed(() => ({
     y: {
       ticks: {
         color: fontColor.value,
-        callback: (v: number) => (v / 1000).toLocaleString('fr-FR') + ' k€',
+        callback: (v: string | number) => (Number(v) / 1000).toLocaleString('fr-FR') + ' k€',
       },
       grid: { color: gridColor.value },
     },
@@ -264,15 +247,39 @@ const comparisonRenteOptions = computed(() => ({
     y: {
       ticks: {
         color: fontColor.value,
-        callback: (v: number) => v.toLocaleString('fr-FR') + ' €',
+        callback: (v: string | number) => Number(v).toLocaleString('fr-FR') + ' €',
       },
       grid: { color: gridColor.value },
     },
   },
 }));
 
+
 function formatMoney(n: number) {
   return n.toLocaleString('fr-FR') + ' €';
+}
+
+// ---------- Newsletter ----------
+const { t } = useI18n();
+const email = ref('');
+const status = ref<'idle' | 'loading' | 'success' | 'already' | 'error'>('idle');
+
+async function subscribe() {
+  status.value = 'loading';
+  try {
+    const res = await $fetch('/api/newsletter', {
+      method: 'POST',
+      body: { email: email.value },
+    });
+    if (res.message === 'already_subscribed') {
+      status.value = 'already';
+    } else {
+      status.value = 'success';
+      email.value = '';
+    }
+  } catch {
+    status.value = 'error';
+  }
 }
 </script>
 
@@ -307,7 +314,7 @@ function formatMoney(n: number) {
     <!-- Hook -->
     <div class="mx-auto max-w-4xl px-6 pb-16">
       <div
-        class="rounded-2xl border p-4 border-red-200 bg-red-50/50 p-8 dark:border-red-800/50 dark:bg-red-900/10"
+        class="rounded-2xl border border-red-200 bg-red-50/50 p-8 dark:border-red-800/50 dark:bg-red-900/10"
       >
         <p class="mb-2 text-xs font-bold uppercase tracking-wider text-red-500">Le constat</p>
         <blockquote class="text-xl font-semibold italic text-gray-800 dark:text-gray-200">
@@ -325,7 +332,7 @@ function formatMoney(n: number) {
     <!-- Section 1 : Le système de répartition -->
     <div class="bg-gray-50 dark:bg-gray-900/50">
       <div class="mx-auto max-w-4xl px-6 py-20">
-        <div class="mb-4 flex items-center gap-3">
+        <div class="mb-6 flex items-center gap-3">
           <span
             class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
             >1</span
@@ -401,7 +408,7 @@ function formatMoney(n: number) {
 
     <!-- Section 2 : Le vrai coût du salariat -->
     <div class="mx-auto max-w-4xl px-6 py-20">
-      <div class="mb-4 flex items-center gap-3">
+      <div class="mb-6 flex items-center gap-3">
         <span
           class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
           >2</span
@@ -409,8 +416,9 @@ function formatMoney(n: number) {
         <h2 class="text-2xl font-bold sm:text-3xl">Le vrai coût du salariat</h2>
       </div>
       <p class="mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-        Un salarié qui coûte <strong class="text-gray-800 dark:text-gray-200">4 000 € brut employeur</strong> ne reçoit qu'environ
-        <strong class="text-gray-800 dark:text-gray-200">2 000 € net</strong>. Voici où passe l'argent :
+        Prenons un dev à <strong class="text-gray-800 dark:text-gray-200">45k € brut/an</strong>.
+        Il coûte <strong class="text-gray-800 dark:text-gray-200">~5 400 €/mois</strong> à son employeur
+        mais ne reçoit que <strong class="text-gray-800 dark:text-gray-200">~2 900 € net</strong>. Voici où passe l'argent :
       </p>
 
       <div class="grid items-center gap-10 md:grid-cols-2">
@@ -419,7 +427,7 @@ function formatMoney(n: number) {
           class="rounded-2xl border border-gray-200 bg-white p-6 dark:border-gray-700 dark:bg-gray-800"
         >
           <p class="mb-4 text-center text-sm font-semibold text-gray-500 dark:text-gray-400">
-            Répartition de 4 000 € brut employeur
+            Répartition de 5 400 €/mois brut employeur (dev à 45k brut)
           </p>
           <div class="mx-auto h-[300px] max-w-[300px]">
             <Doughnut :data="salaryData" :options="salaryOptions" />
@@ -429,19 +437,19 @@ function formatMoney(n: number) {
         <!-- Key numbers -->
         <div class="space-y-4">
           <div class="rounded-xl bg-green-50 p-5 dark:bg-green-900/10">
-            <p class="text-sm text-gray-500 dark:text-gray-400">Tu reçois</p>
-            <p class="text-3xl font-bold text-green-600">2 000 €</p>
-            <p class="text-sm text-gray-400">50% du coût total</p>
+            <p class="mb-1 text-sm text-gray-500 dark:text-gray-400">Tu reçois</p>
+            <p class="text-3xl font-bold text-green-600">~2 900 €</p>
+            <p class="mt-1 text-sm text-gray-400">54% du coût total</p>
           </div>
           <div class="rounded-xl bg-red-50 p-5 dark:bg-red-900/10">
-            <p class="text-sm text-gray-500 dark:text-gray-400">Cotisations retraite</p>
-            <p class="text-3xl font-bold text-red-600">~900 €</p>
-            <p class="text-sm text-gray-400">Rendement inconnu, sans contrôle</p>
+            <p class="mb-1 text-sm text-gray-500 dark:text-gray-400">Cotisations retraite</p>
+            <p class="text-3xl font-bold text-red-600">~940 €</p>
+            <p class="mt-1 text-sm text-gray-400">Rendement inconnu, sans contrôle</p>
           </div>
           <div class="rounded-xl bg-gray-100 p-5 dark:bg-gray-800">
-            <p class="text-sm text-gray-500 dark:text-gray-400">Autres cotisations</p>
-            <p class="text-3xl font-bold text-gray-600 dark:text-gray-300">~1 100 €</p>
-            <p class="text-sm text-gray-400">Santé, chômage, patronales</p>
+            <p class="mb-1 text-sm text-gray-500 dark:text-gray-400">Autres cotisations</p>
+            <p class="text-3xl font-bold text-gray-600 dark:text-gray-300">~1 560 €</p>
+            <p class="mt-1 text-sm text-gray-400">Santé, chômage, patronales</p>
           </div>
         </div>
       </div>
@@ -450,7 +458,7 @@ function formatMoney(n: number) {
         class="mt-8 rounded-xl border-l-4 border-red-400 bg-red-50 p-5 dark:bg-red-900/10"
       >
         <p class="font-semibold text-red-700 dark:text-red-400">
-          "Tu investis 900 € par mois dans un produit financier... sans connaître le rendement."
+          "Tu investis 940 € par mois dans un produit financier... sans connaître le rendement."
         </p>
       </div>
     </div>
@@ -458,7 +466,7 @@ function formatMoney(n: number) {
     <!-- Section 3 : Le manque à gagner -->
     <div class="bg-gray-50 dark:bg-gray-900/50">
       <div class="mx-auto max-w-4xl px-6 py-20">
-        <div class="mb-4 flex items-center gap-3">
+        <div class="mb-6 flex items-center gap-3">
           <span
             class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
             >3</span
@@ -466,23 +474,23 @@ function formatMoney(n: number) {
           <h2 class="text-2xl font-bold sm:text-3xl">Le manque à gagner colossal</h2>
         </div>
         <p class="mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-          Prenons un dev salarié à <strong class="text-gray-800 dark:text-gray-200">45k € brut/an</strong> (~30k net). Il cotise environ
-          <strong class="text-gray-800 dark:text-gray-200">10 800 €/an</strong> pour la retraite. Sur 40 ans :
+          Le même dev à <strong class="text-gray-800 dark:text-gray-200">45k € brut/an</strong> (~35k net). Il cotise environ
+          <strong class="text-gray-800 dark:text-gray-200">11 300 €/an</strong> pour la retraite. Sur 40 ans :
         </p>
 
         <div class="mb-10 grid gap-4 sm:grid-cols-3">
           <div class="rounded-2xl border-2 border-red-300 bg-white p-6 dark:border-red-800 dark:bg-gray-800">
-            <p class="text-sm text-gray-500 dark:text-gray-400">Total cotisé sur 40 ans</p>
-            <p class="text-3xl font-bold text-red-600">~430 000 €</p>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Total cotisé sur 40 ans</p>
+            <p class="text-3xl font-bold text-red-600">~450 000 €</p>
           </div>
           <div class="rounded-2xl border border-gray-200 bg-white p-6 dark:border-gray-700 dark:bg-gray-800">
-            <p class="text-sm text-gray-500 dark:text-gray-400">Pension estimée</p>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Pension estimée</p>
             <p class="text-3xl font-bold">1 500 - 1 800 €<span class="text-lg">/mois</span></p>
           </div>
           <div class="rounded-2xl border border-gray-200 bg-white p-6 dark:border-gray-700 dark:bg-gray-800">
-            <p class="text-sm text-gray-500 dark:text-gray-400">Capital transmissible</p>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Capital transmissible</p>
             <p class="text-3xl font-bold text-red-600">0 €</p>
-            <p class="mt-1 text-sm text-gray-400">Le capital est perdu au décès</p>
+            <p class="mt-2 text-sm text-gray-400">Le capital est perdu au décès</p>
           </div>
         </div>
 
@@ -490,7 +498,7 @@ function formatMoney(n: number) {
           class="rounded-xl border-l-4 border-red-400 bg-red-50 p-5 dark:bg-red-900/10"
         >
           <p class="font-semibold text-red-700 dark:text-red-400">
-            "Tu as mis 430k, on te rend un abonnement Netflix version senior."
+            "Tu as mis 450k, on te rend un abonnement Netflix version senior."
           </p>
         </div>
       </div>
@@ -498,7 +506,7 @@ function formatMoney(n: number) {
 
     <!-- Section 4 : Le modèle freelance -->
     <div class="mx-auto max-w-4xl px-6 py-20">
-      <div class="mb-4 flex items-center gap-3">
+      <div class="mb-6 flex items-center gap-3">
         <span
           class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
           >4</span
@@ -517,7 +525,7 @@ function formatMoney(n: number) {
         </div>
         <div class="rounded-2xl border-2 border-primary bg-white p-6 ring-4 ring-primary/10 dark:bg-gray-800">
           <p class="mb-1 text-sm font-medium text-primary">Net estimé (SASU/EURL)</p>
-          <p class="text-3xl font-bold">~5 500 - 6 500 €<span class="text-lg">/mois</span></p>
+          <p class="text-3xl font-bold">~6 500 €<span class="text-lg">/mois</span></p>
           <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Après charges et IR</p>
         </div>
       </div>
@@ -551,7 +559,7 @@ function formatMoney(n: number) {
     <!-- Section 5 : Comparaison sur 30 ans -->
     <div class="bg-gray-50 dark:bg-gray-900/50">
       <div class="mx-auto max-w-4xl px-6 py-20">
-        <div class="mb-4 flex items-center gap-3">
+        <div class="mb-6 flex items-center gap-3">
           <span
             class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
             >5</span
@@ -612,7 +620,7 @@ function formatMoney(n: number) {
             <tbody class="divide-y divide-gray-200 bg-white dark:divide-gray-700 dark:bg-gray-900">
               <tr>
                 <td class="p-4 font-medium">Revenu net annuel</td>
-                <td class="p-4 text-center">30 000 €</td>
+                <td class="p-4 text-center">~35 000 €</td>
                 <td class="p-4 text-center font-semibold text-green-600">60 000 €+</td>
               </tr>
               <tr>
@@ -651,7 +659,7 @@ function formatMoney(n: number) {
 
     <!-- Section 6 : Pourquoi 2026 -->
     <div class="mx-auto max-w-4xl px-6 py-20">
-      <div class="mb-4 flex items-center gap-3">
+      <div class="mb-6 flex items-center gap-3">
         <span
           class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-sm font-bold text-white"
           >6</span
@@ -703,7 +711,7 @@ function formatMoney(n: number) {
     <!-- Section 7 : Les limites -->
     <div class="bg-gray-50 dark:bg-gray-900/50">
       <div class="mx-auto max-w-4xl px-6 py-20">
-        <div class="mb-4 flex items-center gap-3">
+        <div class="mb-6 flex items-center gap-3">
           <span
             class="flex h-8 w-8 items-center justify-center rounded-full bg-gray-400 text-sm font-bold text-white"
             >!</span
@@ -784,6 +792,60 @@ function formatMoney(n: number) {
         </p>
       </div>
     </div>
+
+    <!-- CTA Newsletter -->
+    <div class="bg-gray-50 dark:bg-gray-900/50">
+      <div class="mx-auto max-w-xl px-6 py-20 text-center">
+        <h2 class="mb-3 text-3xl font-bold">{{ t('nl_cta_title') }}</h2>
+        <p class="mb-8 text-gray-500 dark:text-gray-400">{{ t('nl_cta_desc') }}</p>
+
+        <Transition name="fade" mode="out-in">
+          <div v-if="status === 'success'" class="space-y-4">
+            <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-green-100 dark:bg-green-900/30">
+              <UIcon name="i-material-symbols-check-circle" class="h-8 w-8 text-green-600 dark:text-green-400" />
+            </div>
+            <p class="text-lg font-medium text-green-700 dark:text-green-400">
+              {{ t('newsletter_success') }}
+            </p>
+          </div>
+
+          <form v-else @submit.prevent="subscribe" class="space-y-3">
+            <div class="flex gap-3 sm:flex-row flex-col">
+              <input
+                v-model="email"
+                type="email"
+                required
+                :placeholder="t('newsletter_placeholder')"
+                class="flex-1 rounded-xl border border-gray-300 bg-white px-5 py-3.5 text-base outline-none transition-all placeholder:text-gray-400 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder:text-gray-500 dark:focus:border-primary dark:focus:ring-primary/20"
+              />
+              <button
+                type="submit"
+                :disabled="status === 'loading'"
+                class="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-base font-semibold text-white transition-all hover:brightness-110 active:scale-[0.98] disabled:opacity-60"
+              >
+                <UIcon
+                  v-if="status === 'loading'"
+                  name="i-material-symbols-progress-activity"
+                  class="h-5 w-5 animate-spin"
+                />
+                {{ t('newsletter_subscribe') }}
+              </button>
+            </div>
+
+            <Transition name="slide-fade">
+              <p v-if="status === 'already'" class="text-sm font-medium text-yellow-600 dark:text-yellow-400">
+                {{ t('newsletter_already') }}
+              </p>
+              <p v-else-if="status === 'error'" class="text-sm font-medium text-red-600 dark:text-red-400">
+                {{ t('newsletter_error') }}
+              </p>
+            </Transition>
+
+            <p class="text-xs text-gray-400 dark:text-gray-500">{{ t('newsletter_privacy') }}</p>
+          </form>
+        </Transition>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -797,4 +859,9 @@ function formatMoney(n: number) {
   background-image: linear-gradient(to right, rgb(var(--color-gray-800)) 1px, transparent 1px),
     linear-gradient(to bottom, rgb(var(--color-gray-800)) 1px, transparent 1px);
 }
+
+.fade-enter-active, .fade-leave-active { transition: opacity 0.3s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }
+.slide-fade-enter-active, .slide-fade-leave-active { transition: all 0.25s ease; }
+.slide-fade-enter-from, .slide-fade-leave-to { opacity: 0; transform: translateY(-8px); }
 </style>
