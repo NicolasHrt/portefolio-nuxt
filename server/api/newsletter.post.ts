@@ -1,23 +1,25 @@
-import { prisma } from '../utils/db';
-import { Resend } from 'resend';
+import { db } from '../db'
+import { subscribers } from '../db/schema'
+import { eq } from 'drizzle-orm'
+import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 export default defineEventHandler(async (event) => {
-  const body = await readBody(event);
-  const email = body?.email?.trim().toLowerCase();
+  const body = await readBody(event)
+  const email = body?.email?.trim().toLowerCase()
 
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    throw createError({ statusCode: 400, statusMessage: 'Invalid email address' });
+    throw createError({ statusCode: 400, statusMessage: 'Invalid email address' })
   }
 
-  const existing = await prisma.subscriber.findUnique({ where: { email } });
+  const existing = await db.select().from(subscribers).where(eq(subscribers.email, email))
 
-  if (existing) {
-    return { success: false, message: 'already_subscribed' };
+  if (existing.length > 0) {
+    return { success: false, message: 'already_subscribed' }
   }
 
-  await prisma.subscriber.create({ data: { email } });
+  await db.insert(subscribers).values({ email })
 
   const { data, error } = await resend.emails.send({
     from: 'Nicolas Harter <newsletter@nicolasharter.fr>',
@@ -129,13 +131,13 @@ export default defineEventHandler(async (event) => {
 </body>
 </html>
     `,
-  });
+  })
 
   if (error) {
-    console.error('[Newsletter] Failed to send welcome email to', email, error);
+    console.error('[Newsletter] Failed to send welcome email to', email, error)
   } else {
-    console.log('[Newsletter] Welcome email sent to', email, '- id:', data?.id);
+    console.log('[Newsletter] Welcome email sent to', email, '- id:', data?.id)
   }
 
-  return { success: true, message: 'subscribed' };
-});
+  return { success: true, message: 'subscribed' }
+})
