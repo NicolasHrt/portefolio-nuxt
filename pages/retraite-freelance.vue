@@ -526,7 +526,7 @@ async function subscribe() {
         <div class="rounded-2xl border-2 border-primary bg-white p-6 ring-4 ring-primary/10 dark:bg-gray-800">
           <p class="mb-1 text-sm font-medium text-primary">Net estimé (SASU/EURL)</p>
           <p class="text-3xl font-bold">~6 500 €<span class="text-lg">/mois</span></p>
-          <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Après charges et IR</p>
+          <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Après charges et IS</p>
         </div>
       </div>
 
